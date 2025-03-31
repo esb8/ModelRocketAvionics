@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MPU-6050")(type "KiCad")(uri "${KIPRJMOD}/MPU_6050/2025-03-31_18-29-48.kicad_sym")(options "")(descr ""))
+  (lib (name "MC-311D")(type "KiCad")(uri "${KIPRJMOD}/USBC12PIN.kicad_sym")(options "")(descr ""))
+)
