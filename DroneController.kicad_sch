@@ -5155,7 +5155,7 @@
 	)
 	(text "STM32F411\n"
 		(exclude_from_sim no)
-		(at 173.99 125.476 0)
+		(at 174.244 127.254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5451,16 +5451,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 44.45) (xy 147.32 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01f1a6d5-4395-45e7-b780-972b3abd29c2")
-	)
-	(wire
-		(pts
 			(xy 195.58 78.74) (xy 195.58 77.47)
 		)
 		(stroke
@@ -5491,7 +5481,7 @@
 	)
 	(polyline
 		(pts
-			(xy 167.64 127) (xy 285.75 127)
+			(xy 167.64 129.54) (xy 285.75 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5588,6 +5578,16 @@
 			(type default)
 		)
 		(uuid "29e4ea6e-c483-4c1e-9ced-e6675f404aae")
+	)
+	(polyline
+		(pts
+			(xy 73.66 101.6) (xy 73.66 198.12)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "2f225ee5-40b5-4903-87b4-a9b4307d2a2e")
 	)
 	(wire
 		(pts
@@ -5711,7 +5711,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.3955 12.0077) (xy 166.37 127)
+			(xy 167.6655 14.5477) (xy 167.64 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5859,6 +5859,16 @@
 		)
 		(uuid "97490918-9ac6-4fbf-8438-088d528f3b10")
 	)
+	(polyline
+		(pts
+			(xy 167.64 129.54) (xy 167.6015 198.7707)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "97a798a5-06d0-436d-ba69-c7860fb09d78")
+	)
 	(wire
 		(pts
 			(xy 49.53 119.38) (xy 68.58 119.38)
@@ -5961,7 +5971,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.37 12.065) (xy 166.37 73.66)
+			(xy 167.64 12.065) (xy 167.64 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6031,7 +6041,7 @@
 	)
 	(polyline
 		(pts
-			(xy 73.66 73.66) (xy 166.37 73.66)
+			(xy 73.66 73.66) (xy 167.64 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6048,16 +6058,6 @@
 			(type default)
 		)
 		(uuid "ecc8dcc3-003b-4346-91b1-4d926d770861")
-	)
-	(polyline
-		(pts
-			(xy 73.66 102.235) (xy 74.295 198.12)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "ee4e1d74-c80c-4bf6-a58a-9ad205a3869d")
 	)
 	(wire
 		(pts
@@ -9273,16 +9273,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 44.45 90)
+		(at 147.32 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "67e85e11-8af8-4139-8a2e-f60d7ac41589")
 		(property "Reference" "#PWR06"
-			(at 157.48 44.45 0)
+			(at 153.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9291,7 +9290,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 44.4499 90)
+			(at 150.368 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9300,7 +9299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 44.45 0)
+			(at 147.32 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9309,7 +9308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 44.45 0)
+			(at 147.32 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9318,7 +9317,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 44.45 0)
+			(at 147.32 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10055,16 +10054,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 157.48 57.15 0)
+		(at 157.48 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "75779d02-bc2f-48ee-908b-0a110ae16d55")
 		(property "Reference" "#PWR04"
-			(at 157.48 60.96 0)
+			(at 153.67 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10073,11 +10071,12 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 157.48 52.07 0)
+			(at 157.48 54.356 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -12954,7 +12953,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 84.582 37.846 0)
+			(at 89.916 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
