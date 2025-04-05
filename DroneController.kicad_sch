@@ -5163,6 +5163,16 @@
 		)
 		(uuid "16f12563-648a-4361-b804-e78951da3e60")
 	)
+	(text "test"
+		(exclude_from_sim no)
+		(at 195.834 48.26 0)
+		(effects
+			(font
+				(size 0.01 0.01)
+			)
+		)
+		(uuid "22012bf3-cf99-481a-8852-5ec091cdad42")
+	)
 	(text "USB-C\n"
 		(exclude_from_sim no)
 		(at 18.796 194.056 0)
