@@ -5,4 +5,6 @@
   (lib (name "TPS62152RGTR")(type "KiCad")(uri "${KIPRJMOD}/TPS62152RGTR")(options "")(descr ""))
   (lib (name "L86")(type "KiCad")(uri "${KIPRJMOD}/L86")(options "")(descr ""))
   (lib (name "Lora1276")(type "KiCad")(uri "${KIPRJMOD}/G-NiceRF lora1276-C1-915MHz/Lora1276.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Terminal Blocks/Library.pretty")(options "")(descr ""))
+  (lib (name "Switches")(type "KiCad")(uri "${KIPRJMOD}/Terminal Blocks/Switches.pretty")(options "")(descr ""))
 )
