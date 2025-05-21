@@ -55,10 +55,8 @@ This project aims to create a FPV drone with a custom all-in-one (AIO) PCB that 
 - Soft-mounted sensor design
 
 ### Power Distribution
-- 2oz copper for high current paths
-- Filtering capacitors for clean power
-- Voltage and current sensing
-- Reverse polarity protection
+- Electric Speed Controller for four BLDC motors
+- DC-DC Buck Converter to transform voltage to 3.3V 
 
 ### ESC (Electronic Speed Controller)
 - BLHeli_S/BLHeli_32 compatible
