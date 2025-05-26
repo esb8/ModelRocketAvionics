@@ -473,9 +473,9 @@
       {
         "bus_width": 12,
         "clearance": 0.0,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.2032,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1582,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -537,7 +537,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -735,7 +735,7 @@
           "group_by": false,
           "label": "Price",
           "name": "Price",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -771,13 +771,13 @@
           "group_by": false,
           "label": "Supplier",
           "name": "Supplier",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Supplier Part",
           "name": "Supplier Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -819,6 +819,12 @@
           "group_by": false,
           "label": "Capacitance",
           "name": "Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Normal Temperature Frequency Tolerance",
+          "name": "Normal Temperature Frequency Tolerance",
           "show": false
         }
       ],
