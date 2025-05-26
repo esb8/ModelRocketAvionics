@@ -74,18 +74,8 @@
 		)
 	)
 	(fp_line
-		(start -3.175 -1.427)
-		(end -3.175 -1.3815)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "62d6a291-99e6-4397-b1a8-84c5709bff93")
-	)
-	(fp_line
-		(start -2.7235 -0.1095)
-		(end -2.7235 0.828)
+		(start -2.7235 0)
+		(end -2.7235 0.5)
 		(stroke
 			(width 0.254)
 			(type default)
@@ -94,24 +84,24 @@
 		(uuid "2299f6b7-5560-463a-85da-522f394766c1")
 	)
 	(fp_line
-		(start -1.638 1.85)
-		(end -2.019 1.85)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "0bf570e9-1b5e-423a-afe4-c9ecff00c610")
-	)
-	(fp_line
-		(start -1.5825 -1.427)
-		(end -3.175 -1.427)
+		(start -2 -1.427)
+		(end -3 -1.427)
 		(stroke
 			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "863aab9f-c6ed-4d15-8000-ef4e2af1f107")
+	)
+	(fp_line
+		(start -1.638 1.85)
+		(end -1.5 1.85)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0bf570e9-1b5e-423a-afe4-c9ecff00c610")
 	)
 	(fp_line
 		(start -1.5 3.35)
@@ -145,7 +135,7 @@
 	)
 	(fp_line
 		(start 0.25 1.85)
-		(end 2.019 1.85)
+		(end 1.5 1.85)
 		(stroke
 			(width 0.254)
 			(type default)
@@ -164,8 +154,8 @@
 		(uuid "079c3f83-33ad-4ae4-95f9-9c2c8ef6e11b")
 	)
 	(fp_line
-		(start 1.581 -1.428)
-		(end 3.175 -1.428)
+		(start 2 -1.428)
+		(end 3 -1.428)
 		(stroke
 			(width 0.254)
 			(type default)
@@ -174,24 +164,14 @@
 		(uuid "b41fd08d-8531-419a-961b-04910e51c145")
 	)
 	(fp_line
-		(start 2.695 -0.1)
-		(end 2.695 0.8375)
+		(start 2.695 0)
+		(end 2.695 0.5)
 		(stroke
 			(width 0.254)
 			(type default)
 		)
 		(layer "F.SilkS")
 		(uuid "34acb72e-9895-4e4d-8beb-a28d45295a78")
-	)
-	(fp_line
-		(start 3.175 -1.428)
-		(end 3.175 -1.381)
-		(stroke
-			(width 0.254)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "485cb2cd-794a-418c-b2a6-05331596cac2")
 	)
 	(fp_circle
 		(center -1.5 0.35)
@@ -472,19 +452,6 @@
 		)
 		(layer "User.2")
 		(uuid "5eaa90cf-3631-4a77-88b7-69e139952e4b")
-	)
-	(fp_poly
-		(pts
-			(xy -3.004567 -2.011461) (xy -3.037039 -2.043933) (xy -3.082961 -2.043933) (xy -3.115433 -2.011461)
-			(xy -3.115433 -1.965539) (xy -3.082961 -1.933067) (xy -3.037039 -1.933067) (xy -3.004567 -1.965539)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill yes)
-		(layer "User.3")
-		(uuid "552dd939-16b3-4c05-b1a3-7f2825a5d30b")
 	)
 	(pad "1" smd rect
 		(at -1 -1.45)
