@@ -1,6 +1,6 @@
 # FPV Drone PCB Full PCB + Assembly - Work in Progress
 
-A complete open-source FPV drone with integrated flight controller, power distribution board, and ESC on a single PCB.
+A comprehensive open-source avionics ecosystem for FPV drones featuring a completed flight computer PCB along with in-development power distribution and electronic speed controller PCB. This project delivers an avionics stack for a custom drone with full schematic and PCB files available on KiCad.
 
 ## Overview
 
@@ -17,18 +17,21 @@ This project aims to create a FPV drone with a custom all-in-one (AIO) PCB that 
 - **Sensors**
   - MPU6500 gyroscope/accelerometer (3.3V, SPI interface)
   - BMP280 barometer for altitude hold
-  - Optional GPS with integrated magnetometer
+  - L86-M33 GPS for postional tracking
+  - SX 1276 LoRa Transciever Module
 
 - **Power System**
+  - USB-C Power Option
   - MP2393GTL-Z DC-DC buck converter for efficient power regulation
   - Support for 3S-6S LiPo batteries (11.1V-22.2V)
   - XT-60 connector for battery input
   - 30A per motor capability (120A max total)
 
 - **Connectivity**
-  - Multiple UART ports for peripherals
+  - All peripherals utilize SPI for high-speed sensor communication
+  - UART port for external peripheral
+  - Backup Coin Cell Battery Port
   - FTDI programming interface
-  - SPI for high-speed sensor communication
 
 ## Bill of Materials
 
@@ -47,16 +50,13 @@ This project aims to create a FPV drone with a custom all-in-one (AIO) PCB that 
 
 ### Flight Controller
 - STM32F411CEU6 microcontroller
-- 8MHz external crystal oscillator (YXC X50328MSB4SI)
+- 12MHz external crystal oscillator
 - MPU6500 gyroscope/accelerometer
-- Multiple UART ports for peripherals
 - Soft-mounted sensor design
 
 ### Power Distribution
-- 2oz copper for high current paths
-- Filtering capacitors for clean power
-- Voltage and current sensing
-- Reverse polarity protection
+- Electric Speed Controller for four BLDC motors
+- DC-DC Buck Converter to transform voltage to 3.3V 
 
 ### ESC (Electronic Speed Controller)
 - BLHeli_S/BLHeli_32 compatible
@@ -123,7 +123,7 @@ Total estimated project time: 9-17 weeks
 
 ## Collaboration
 
-This project is in collaboration with ESB8. All PCB designs, firmware modifications, and build documentation are developed jointly to ensure the highest quality and performance.
+This project is in collaboration with esb8. All PCB designs, firmware modifications, and build documentation are developed jointly to ensure the highest quality and performance.
 
 ## License
 
