@@ -114,7 +114,8 @@ This drone design is compatible with:
 
 ## Media 
 **Flight Computer Schematic**
-![image](https://github.com/user-attachments/assets/94d1aadc-fa79-4dc2-9deb-925b9da9444a)
+![image](https://github.com/user-attachments/assets/66eaace1-5f99-4fdb-9aa4-7867878309cd)
+
 
 
 **Flight Computer PCB**
