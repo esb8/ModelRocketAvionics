@@ -10081,12 +10081,6 @@
 		(uuid "6ea04c74-10db-49a9-91e6-d83f9e81470a")
 	)
 	(junction
-		(at 60.96 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "837d8820-06c4-4068-8afc-517aa8b20ba1")
-	)
-	(junction
 		(at 157.48 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10193,6 +10187,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3647f59-4aa0-4c5d-ae8e-fc01c953404d")
+	)
+	(junction
+		(at 62.23 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7d07ab3-d685-4880-adb0-5d43341a1c1e")
 	)
 	(junction
 		(at 161.29 123.19)
@@ -10728,7 +10728,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 22.86) (xy 60.96 25.4)
+			(xy 62.23 22.86) (xy 62.23 25.4)
 		)
 		(stroke
 			(width 0)
@@ -11098,6 +11098,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 22.86) (xy 60.96 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8d9730-60bc-4933-8791-f9d1c67bd83d")
+	)
+	(wire
+		(pts
 			(xy 217.17 104.14) (xy 220.98 104.14)
 		)
 		(stroke
@@ -11308,6 +11318,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 72.39) (xy 137.16 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4020505-d59e-4c31-9278-2d6cda91714d")
+	)
+	(wire
+		(pts
 			(xy 53.34 93.98) (xy 53.34 91.44)
 		)
 		(stroke
@@ -11385,6 +11405,16 @@
 			(type default)
 		)
 		(uuid "c49a7fa2-5078-4c6e-8421-cf0284150982")
+	)
+	(wire
+		(pts
+			(xy 62.23 25.4) (xy 60.96 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7933b2-6c34-40d8-b8b9-29a43ac0bf26")
 	)
 	(polyline
 		(pts
@@ -11535,16 +11565,6 @@
 			(type default)
 		)
 		(uuid "e7d5ca9d-8003-41d1-a1cd-37b728c0e338")
-	)
-	(wire
-		(pts
-			(xy 62.23 25.4) (xy 60.96 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7d5ff1f-141c-4ed0-a93c-cd72acdf20b8")
 	)
 	(polyline
 		(pts
@@ -11766,7 +11786,7 @@
 		)
 		(uuid "1728602c-fc9b-4c76-bca5-7a7a79ad6ce9")
 	)
-	(label "USART1_RX"
+	(label "MCU_TX1"
 		(at 50.8 83.82 0)
 		(effects
 			(font
@@ -11774,7 +11794,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "19567e01-83b5-482e-9d7d-65e793960d57")
+		(uuid "192a99b6-450a-4c6f-85db-c40f6fb63b48")
 	)
 	(label "SPI1_MISO"
 		(at 266.7 81.28 0)
@@ -11785,6 +11805,16 @@
 			(justify left bottom)
 		)
 		(uuid "1ba97f3c-aa43-4747-92b7-05feeaa34564")
+	)
+	(label "MCU_TX1"
+		(at 266.7 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2648ace3-e3cd-4bff-9459-c92d9e1e6b06")
 	)
 	(label "SPI5_NSS"
 		(at 266.7 50.8 0)
@@ -11816,6 +11846,16 @@
 		)
 		(uuid "40c93ba8-55fe-4a6e-8489-009c3570b1d5")
 	)
+	(label "MCU_RX2"
+		(at 189.23 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "419e8950-0590-4f2b-b3a6-4ca50af6a9f5")
+	)
 	(label "SPI2_SCK"
 		(at 266.7 22.86 0)
 		(effects
@@ -11846,7 +11886,17 @@
 		)
 		(uuid "5003e5a6-b061-4160-a48b-88cfbb448b3d")
 	)
-	(label "USART2_RX"
+	(label "MCU_RX1"
+		(at 50.8 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "530aef0f-f8a2-4be4-b012-e1d456ea707a")
+	)
+	(label "MCU_RX2"
 		(at 266.7 88.9 0)
 		(effects
 			(font
@@ -11926,16 +11976,6 @@
 		)
 		(uuid "66b77da6-2f47-45b2-8858-73270062644a")
 	)
-	(label "USART1_TX"
-		(at 266.7 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f8537a3-b406-4034-898a-7f920cb2596b")
-	)
 	(label "SPI1_NSS"
 		(at 104.14 125.73 180)
 		(effects
@@ -11945,16 +11985,6 @@
 			(justify right bottom)
 		)
 		(uuid "77a08766-65f3-488d-8c03-782bad0d32e3")
-	)
-	(label "USART1_RX"
-		(at 266.7 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79936494-157a-49b7-ac3f-4468f30e40e1")
 	)
 	(label "SPI1_NSS"
 		(at 266.7 86.36 0)
@@ -11996,7 +12026,7 @@
 		)
 		(uuid "89d4bb88-5b05-4d14-bb69-8e149c914c52")
 	)
-	(label "USART2_TX"
+	(label "MCU_TX2"
 		(at 266.7 91.44 0)
 		(effects
 			(font
@@ -12136,7 +12166,7 @@
 		)
 		(uuid "ce9c954e-4086-43de-bf6d-b70bb85fa6be")
 	)
-	(label "USART2_RX"
+	(label "MCU_TX2"
 		(at 189.23 127 180)
 		(effects
 			(font
@@ -12144,7 +12174,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "db9c05a1-4e95-4880-8c1c-7e437a406813")
+		(uuid "cecfaae5-0733-44d2-ae32-f22f0b9da3d7")
 	)
 	(label "USB_FS_DN"
 		(at 46.99 153.67 0)
@@ -12156,15 +12186,15 @@
 		)
 		(uuid "dca5f431-812b-472a-867e-3a56021f51d0")
 	)
-	(label "USART2_TX"
-		(at 189.23 129.54 180)
+	(label "MCU_RX1"
+		(at 266.7 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "dda05be3-ad7e-454b-817c-72d819448857")
+		(uuid "e7d502a2-a08b-4b8a-88fe-f51ff62b7433")
 	)
 	(label "SPI1_SCK"
 		(at 248.92 133.35 180)
@@ -12185,16 +12215,6 @@
 			(justify right bottom)
 		)
 		(uuid "f312536b-985d-449c-a96b-f741866141de")
-	)
-	(label "USART1_TX"
-		(at 50.8 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f58cd8f7-a2a7-47c0-9695-18ea89d946c5")
 	)
 	(label "SPI1_MISO"
 		(at 248.92 135.89 180)
@@ -12816,6 +12836,72 @@
 			(project "DroneController"
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 50.8 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "088bed5c-3c79-4e7c-9366-da267bf87f5f")
+		(property "Reference" "#PWR035"
+			(at 50.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 50.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 50.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d936187b-7cfd-493e-893c-8927928663c1")
+		)
+		(instances
+			(project "DroneController"
+				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -23656,71 +23742,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 50.8 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf561918-02c5-4058-a8e5-fe921c87fd6f")
-		(property "Reference" "#PWR042"
-			(at 50.8 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 50.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 50.8 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbc8a919-0437-40e5-874b-22fcd23d1e65")
-		)
-		(instances
-			(project "DroneController"
-				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
 		(at 158.75 55.88 270)
 		(unit 1)
@@ -26453,7 +26474,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 137.16 72.39 0)
+		(at 147.32 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26461,7 +26482,7 @@
 		(dnp no)
 		(uuid "ff1cd75f-a697-4d05-87bc-e94fab7513f5")
 		(property "Reference" "#PWR044"
-			(at 137.16 76.2 0)
+			(at 147.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26470,7 +26491,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 137.16 68.072 0)
+			(at 147.32 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26478,7 +26499,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 72.39 0)
+			(at 147.32 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26487,7 +26508,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 72.39 0)
+			(at 147.32 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26496,7 +26517,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 137.16 72.39 0)
+			(at 147.32 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)

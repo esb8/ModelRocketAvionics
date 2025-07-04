@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.4,
-          "height": 2.3,
-          "width": 2.3
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 2.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.508
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -591,7 +591,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -825,102 +825,6 @@
           "group_by": false,
           "label": "Normal Temperature Frequency Tolerance",
           "name": "Normal Temperature Frequency Tolerance",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Diode Configuration",
-          "name": "Diode Configuration",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Dominant Wavelength",
-          "name": "Dominant Wavelength",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Drain Source On Resistance (RDS(on)@Vgs,Id)",
-          "name": "Drain Source On Resistance (RDS(on)@Vgs,Id)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Gate Threshold Voltage (Vgs(th)@Id)",
-          "name": "Gate Threshold Voltage (Vgs(th)@Id)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Continuous Drain Current (Id)",
-          "name": "Continuous Drain Current (Id)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Drain Source Voltage (Vdss)",
-          "name": "Drain Source Voltage (Vdss)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Input Capacitance (Ciss@Vds)",
-          "name": "Input Capacitance (Ciss@Vds)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Emitted Color",
-          "name": "Emitted Color",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Forward Current",
-          "name": "Forward Current",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Total Gate Charge (Qg@Vgs)",
-          "name": "Total Gate Charge (Qg@Vgs)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Lens Color",
-          "name": "Lens Color",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Viewing Angle",
-          "name": "Viewing Angle",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Forward Voltage (VF)",
-          "name": "Forward Voltage (VF)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Power Dissipation",
-          "name": "Power Dissipation",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Power Dissipation (Pd)",
-          "name": "Power Dissipation (Pd)",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Luminous Intensity",
-          "name": "Luminous Intensity",
           "show": false
         }
       ],
