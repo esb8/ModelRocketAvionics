@@ -2904,37 +2904,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Small"
+		(symbol "Device:R_Shunt"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at -4.445 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+			(property "Value" "R_Shunt"
+				(at -2.54 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2951,7 +2948,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
+			(property "Description" "Shunt resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2960,7 +2957,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R resistor"
+			(property "ki_keywords" "R res shunt resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2969,7 +2966,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
+			(property "ki_fp_filters" "R_*Shunt*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2978,12 +2975,36 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_Small_0_1"
+			(symbol "R_Shunt_0_1"
 				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
-						(width 0.2032)
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2991,11 +3012,11 @@
 					)
 				)
 			)
-			(symbol "R_Small_1_1"
+			(symbol "R_Shunt_1_1"
 				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3011,9 +3032,27 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 2.54 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3021,6 +3060,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9638,12 +9695,6 @@
 		(uuid "3db492fd-56c3-400f-b19b-dbd2c3ce6599")
 	)
 	(junction
-		(at 229.87 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f90e003-1468-490f-9644-e5bc7c555566")
-	)
-	(junction
 		(at 182.88 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9816,12 +9867,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eaf8818b-8593-4c8e-8178-e2920910b3db")
-	)
-	(junction
-		(at 229.87 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eca63ce9-ce0b-484c-bc00-f2f151f1760e")
 	)
 	(junction
 		(at 205.74 30.48)
@@ -10057,7 +10102,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 116.84) (xy 229.87 118.11)
+			(xy 226.06 114.3) (xy 226.06 115.57)
 		)
 		(stroke
 			(width 0)
@@ -11315,7 +11360,7 @@
 		)
 		(uuid "292a1742-8df0-418f-aff7-f2347ac33372")
 	)
-	(label "GLC"
+	(label "GLB"
 		(at 255.27 36.83 180)
 		(effects
 			(font
@@ -11386,7 +11431,7 @@
 		(uuid "463477c4-5980-4752-aeed-9efb7ba38a80")
 	)
 	(label "LOW_COMMON"
-		(at 229.87 116.84 180)
+		(at 226.06 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11405,7 +11450,7 @@
 		)
 		(uuid "539210de-4320-4425-8efd-f0476c2472ba")
 	)
-	(label "GLC"
+	(label "GLB"
 		(at 161.29 62.23 0)
 		(effects
 			(font
@@ -11685,7 +11730,7 @@
 		)
 		(uuid "cb79c3e9-c554-43e2-93a2-1b4e71cea969")
 	)
-	(label "INLC"
+	(label "INCA"
 		(at 125.73 54.61 180)
 		(effects
 			(font
@@ -12867,85 +12912,6 @@
 			(project "ESC_Board"
 				(path "/c7f275f7-0597-4a7d-8593-149a5f6bff0e"
 					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 229.87 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c1cf012-3a37-4f8a-9966-1c3aaf0cc2b9")
-		(property "Reference" "R94"
-			(at 232.41 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.0m"
-			(at 232.41 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 229.87 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 229.87 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2994640"
-			(at 229.87 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a598a0c1-1abe-4269-84d7-a8708ed45b3a")
-		)
-		(pin "2"
-			(uuid "70b28176-880e-4ab6-8946-d8ff8921448c")
-		)
-		(instances
-			(project ""
-				(path "/c7f275f7-0597-4a7d-8593-149a5f6bff0e"
-					(reference "R94")
 					(unit 1)
 				)
 			)
@@ -14468,7 +14434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV:RGE0024B-IPC_A"
+		(property "Footprint" "RGE0024B-IPC_A"
 			(at 125.73 29.21 0)
 			(effects
 				(font
@@ -14489,15 +14455,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 125.73 29.21 0)
 			(effects
 				(font
@@ -16080,13 +16037,14 @@
 				)
 			)
 		)
-		(property "Footprint" "TLV:DRB0008J-IPC_A"
+		(property "Footprint" "DRB0008J-IPC_A"
 			(at 142.24 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv766-q1"
@@ -16100,15 +16058,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
 			(at 142.24 118.11 0)
 			(effects
 				(font
@@ -21425,6 +21374,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Shunt")
+		(at 226.06 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcaadbc2-9c1b-4a75-9f8d-0749a47138e1")
+		(property "Reference" "R1"
+			(at 223.52 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.0m"
+			(at 223.52 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+			(at 224.282 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Shunt resistor"
+			(at 226.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2994640"
+			(at 226.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fdecf10b-67cf-4747-ab17-a42d07bf3e4c")
+		)
+		(pin "2"
+			(uuid "f5764a1c-61c8-424d-aec6-07f4d79c0a7d")
+		)
+		(pin "1"
+			(uuid "78dc5e01-8b63-4c78-b77b-6f2c19412b49")
+		)
+		(pin "4"
+			(uuid "5ab7c817-6c9f-4b24-ac2c-fdb113d63dfa")
+		)
+		(instances
+			(project ""
+				(path "/c7f275f7-0597-4a7d-8593-149a5f6bff0e"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "0603,1uF_1")
 		(lib_id "PCM_JLCPCB-Capacitors:0603,1uF")
 		(at 139.7 129.54 0)
@@ -23491,7 +23524,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 123.19 0)
+		(at 226.06 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23500,7 +23533,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6f25457-c3ec-4668-93f6-c5f06f2d56c3")
 		(property "Reference" "#PWR01"
-			(at 229.87 129.54 0)
+			(at 226.06 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23509,7 +23542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 128.27 0)
+			(at 226.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23517,7 +23550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 123.19 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23526,7 +23559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 123.19 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23535,7 +23568,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 123.19 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
