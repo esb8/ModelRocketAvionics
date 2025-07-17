@@ -2121,6 +2121,495 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "63824-1:63824-1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -3.0501 3.0501 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "63824-1"
+				(at -3.0492 -4.8279 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "63824-1:CONN_63824-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RESISTANCE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "CONNECTOR" "THT MALE CONNECTOR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "APPLICATION" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VOLTAGE_DC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "TE_PART_NUMBER" "63824-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "CASE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SPICE_MODEL" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "FOOTPRINT_REFERANCE" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "ORIENTATION" "Straight"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SIGNAL_INTEGRITY" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "GENDER" "Male"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VOLTAGE_AC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "LIBRARY_REF" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "FOOTPRINT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "CONFIGURATION" "Single Row"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PART_DESCRIPTION" "Connector,5.08mm,Straight"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PUBLISHER" "TE Connectivity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "FINISH" "Tin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "THT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SERIES" "FASTON  | 250"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "CURRENT_RATING" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DESIGNATOR" "63824-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "ROHS_COMPLIANT" "Yes"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "LATEST_REVISION_DATE" "25 June,2013"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PUBLISHED" "20 Feb,2001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "NO_OF_POSITION" "2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "FOOTPRINT_PATH" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "TECHNOLOGY" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_LINK" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F63824%7FR%7Fpdf%7FEnglish%7FENG_CD_63824_R_baseFilename.pdf%7F63824-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TE Connectivity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "LATEST_REVISION_NOTE" "Revised per ECR-13-001204"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "LIBRARY_PATH" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PITCH" "5.08mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "TYPE" "TAB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "63824-1_0_0"
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Amplifier_Current:INA180A1"
 			(pin_names
 				(offset 0.127)
@@ -9421,19 +9910,9 @@
 		)
 		(uuid "34a4e8a3-6fb0-48e1-a339-eb532c7210e7")
 	)
-	(text "prolly got add soem voltage sensing circuti or smthg\n"
-		(exclude_from_sim no)
-		(at 165.862 173.482 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "40556aea-0b6b-45e1-ae9a-b6146b736cab")
-	)
 	(text "TVS\n\n"
 		(exclude_from_sim no)
-		(at 25.908 180.848 0)
+		(at 16.002 184.404 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9471,19 +9950,9 @@
 		)
 		(uuid "6f1d7efa-626b-4d1a-b91e-9bf94e76a699")
 	)
-	(text "just battry protection is missing"
-		(exclude_from_sim no)
-		(at 155.448 180.848 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7cce94d6-3370-4fa7-8149-72a978aa482b")
-	)
 	(text "might reduce footprint of inductor"
 		(exclude_from_sim no)
-		(at 93.472 123.444 0)
+		(at 98.552 149.606 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9612,12 +10081,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23a2e866-f8ac-4fd1-8ab3-c197ea63032d")
-	)
-	(junction
-		(at 73.66 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2861f7e2-cb0d-451c-9518-9aa4fc9ee18b")
 	)
 	(junction
 		(at 35.56 105.41)
@@ -9788,16 +10251,16 @@
 		(uuid "bed97927-cb60-412b-91d6-74df8d51137e")
 	)
 	(junction
-		(at 73.66 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c622b0fc-8203-4a39-a36b-ca0e49e04280")
-	)
-	(junction
 		(at 38.1 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd0a62e3-4501-43a1-af3c-af6d73bbf91e")
+	)
+	(junction
+		(at 78.74 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dea47db0-5052-4b9f-a52b-52902092c2f1")
 	)
 	(junction
 		(at 57.15 166.37)
@@ -9848,10 +10311,10 @@
 		(uuid "f735aea3-7aee-4ea0-841a-f400f2d869b8")
 	)
 	(junction
-		(at 73.66 138.43)
+		(at 74.93 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fec2284c-3819-406e-ac00-a659068f729f")
+		(uuid "f9b3e55d-c881-496d-9389-a909b755d3a7")
 	)
 	(no_connect
 		(at 73.66 62.23)
@@ -9927,6 +10390,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 167.64) (xy 78.74 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083515fa-d4b2-4b92-bee3-ad63d4964ec9")
+	)
+	(wire
+		(pts
 			(xy 270.51 30.48) (xy 270.51 31.75)
 		)
 		(stroke
@@ -9997,6 +10470,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 173.99) (xy 78.74 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119cf0a8-6220-4c34-bf8e-92e0f8587a0b")
+	)
+	(wire
+		(pts
 			(xy 38.1 110.49) (xy 35.56 110.49)
 		)
 		(stroke
@@ -10037,7 +10520,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 30.48) (xy 270.51 30.48)
+			(xy 275.59 30.48) (xy 270.51 30.48)
 		)
 		(stroke
 			(width 0)
@@ -10064,6 +10547,16 @@
 			(type default)
 		)
 		(uuid "1e94c1d0-294a-45c2-8355-ad3ff621cf49")
+	)
+	(wire
+		(pts
+			(xy 73.66 138.43) (xy 74.93 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc072fb-2718-4cfb-bc6c-84015e66a402")
 	)
 	(wire
 		(pts
@@ -10205,16 +10698,6 @@
 		)
 		(uuid "3befba74-a26a-4453-b7c6-3f6ad6926189")
 	)
-	(wire
-		(pts
-			(xy 264.16 30.48) (xy 270.51 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d3b7e4e-f0d1-43e1-8af7-5f773763a5fc")
-	)
 	(polyline
 		(pts
 			(xy 12.7 154.94) (xy 116.84 154.94)
@@ -10224,6 +10707,16 @@
 			(type dash)
 		)
 		(uuid "3e5c1af4-3f48-495e-ad1d-9f893ae45783")
+	)
+	(wire
+		(pts
+			(xy 74.93 138.43) (xy 74.93 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4107068f-49a3-498f-a747-f309172dac03")
 	)
 	(wire
 		(pts
@@ -10384,6 +10877,16 @@
 			(type dash)
 		)
 		(uuid "5e01c191-b683-41aa-a141-0729c3819dfe")
+	)
+	(wire
+		(pts
+			(xy 67.31 166.37) (xy 78.74 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea47623-213a-4756-9462-5e89ca82fb7e")
 	)
 	(wire
 		(pts
@@ -10687,13 +11190,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 138.43) (xy 73.66 140.97)
+			(xy 73.66 135.89) (xy 77.47 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d988b92-5d52-49c6-95e6-92934a280e81")
+		(uuid "91a47aec-49e3-48b2-af9c-ec23d2aa82ea")
 	)
 	(wire
 		(pts
@@ -10874,16 +11377,6 @@
 			(type dash)
 		)
 		(uuid "b298bcc3-1c4b-46dd-8483-1bece23bd27a")
-	)
-	(wire
-		(pts
-			(xy 73.66 135.89) (xy 73.66 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5ffa422-2ed4-4ebc-a738-f36e921276a5")
 	)
 	(polyline
 		(pts
@@ -11207,13 +11700,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 133.35) (xy 73.66 135.89)
+			(xy 73.66 140.97) (xy 74.93 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa5d8d87-c09d-4d7a-905c-4eee098b6154")
+		(uuid "f6150e65-ae79-4d69-8591-8ab033652894")
 	)
 	(label "GHB"
 		(at 223.52 24.13 180)
@@ -11294,6 +11787,16 @@
 			(justify left bottom)
 		)
 		(uuid "19153d0a-96e2-4e02-9123-2c9e69f1a4b3")
+	)
+	(label "MOTORB"
+		(at 153.67 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1dc699c4-99d7-4902-9a15-1a040bbef219")
 	)
 	(label "INLB"
 		(at 43.18 52.07 180)
@@ -11425,6 +11928,16 @@
 		)
 		(uuid "56d6d4d0-f171-4d6c-8b1c-1efe6166612b")
 	)
+	(label "MOTORC"
+		(at 171.45 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5950a536-c23a-44ff-a741-472a1a42c269")
+	)
 	(label "INLA"
 		(at 125.73 39.37 180)
 		(effects
@@ -11456,7 +11969,7 @@
 		(uuid "60f68fc7-8802-4e64-a6b1-bc504cfb2450")
 	)
 	(label "MOTORC"
-		(at 271.78 30.48 0)
+		(at 275.59 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11504,6 +12017,16 @@
 			(justify left bottom)
 		)
 		(uuid "78acc1c4-60b1-4bad-85e1-485f8aabc308")
+	)
+	(label "MOTORA"
+		(at 133.35 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e6f4cce-27dd-4aaf-8259-df5da15cb26d")
 	)
 	(label "LOW_COMMON"
 		(at 205.74 44.45 0)
@@ -11744,16 +12267,6 @@
 			(justify right bottom)
 		)
 		(uuid "e9b59ee4-6355-4315-8daf-2d4895a822fc")
-	)
-	(label "SHC"
-		(at 264.16 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f001399e-4e44-4026-8826-a405d0843c38")
 	)
 	(label "MOTORA"
 		(at 208.28 30.48 0)
@@ -13027,7 +13540,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 140.97 0)
+		(at 74.93 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13036,7 +13549,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e660913-6625-4da7-8266-beeae8a66fda")
 		(property "Reference" "#PWR036"
-			(at 73.66 147.32 0)
+			(at 74.93 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13045,7 +13558,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 146.05 0)
+			(at 74.93 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13053,7 +13566,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 140.97 0)
+			(at 74.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13062,7 +13575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 140.97 0)
+			(at 74.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13071,7 +13584,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 140.97 0)
+			(at 74.93 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14657,6 +15170,444 @@
 		)
 	)
 	(symbol
+		(lib_id "63824-1:63824-1")
+		(at 148.59 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3982e9bc-66ee-45de-b988-0f66e169672c")
+		(property "Reference" "J2"
+			(at 148.59 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "63824-1"
+			(at 148.59 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:TRM2_63824-1_TEC"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR" "THT MALE CONNECTOR"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "APPLICATION" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE_DC" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PART_NUMBER" "63824-1"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICE_MODEL" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT_REFERANCE" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ORIENTATION" "Straight"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SIGNAL_INTEGRITY" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "GENDER" "Male"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE_AC" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LIBRARY_REF" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONFIGURATION" "Single Row"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_DESCRIPTION" "Connector,5.08mm,Straight"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHER" "TE Connectivity"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FINISH" "Tin"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "THT"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SERIES" "FASTON  | 250"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT_RATING" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESIGNATOR" "63824-1"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS_COMPLIANT" "Yes"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LATEST_REVISION_DATE" "25 June,2013"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHED" "20 Feb,2001"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "NO_OF_POSITION" "2"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT_PATH" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TECHNOLOGY" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_LINK" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F63824%7FR%7Fpdf%7FEnglish%7FENG_CD_63824_R_baseFilename.pdf%7F63824-1"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LATEST_REVISION_NOTE" "Revised per ECR-13-001204"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LIBRARY_PATH" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH" "5.08mm"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "TAB"
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "22c7ab80-73b9-4e4e-a952-678823cf8e28")
+		)
+		(pin "1"
+			(uuid "3c202c91-a5e5-41d8-98c3-34c45541973d")
+		)
+		(instances
+			(project "ESC_Board"
+				(path "/c7f275f7-0597-4a7d-8593-149a5f6bff0e"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky")
 		(at 162.56 104.14 0)
 		(unit 1)
@@ -16062,7 +17013,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5d9f7b4a-e271-4eb4-ab6f-a1df48a37ac2")
 		(property "Reference" "U6"
 			(at 162.56 107.95 0)
@@ -16081,12 +17031,13 @@
 			)
 		)
 		(property "Footprint" "TLV:DRB0008J-IPC_A"
-			(at 142.24 118.11 0)
+			(at 162.56 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv766-q1"
@@ -17528,6 +18479,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 78.74 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bb1180e-affb-40c0-af96-e6708eba9266")
+		(property "Reference" "C6"
+			(at 81.28 168.3638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 81.28 170.9038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
+			(at 78.74 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 78.74 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C445063"
+			(at 78.74 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75fb46c7-6b72-4949-9631-78c13ebccc5a")
+		)
+		(pin "2"
+			(uuid "f49c00f2-73ca-45e8-8b5b-60990e435070")
+		)
+		(instances
+			(project "ESC_Board"
+				(path "/c7f275f7-0597-4a7d-8593-149a5f6bff0e"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0402,22Ω")
 		(at 80.01 67.31 90)
 		(unit 1)
@@ -17943,6 +18973,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 78.74 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80cb18f4-e3d7-4d37-81a4-2e7224f2b9bd")
+		(property "Reference" "#PWR0111"
+			(at 78.74 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d40207ed-7021-4903-894a-d9131408b304")
+		)
+		(instances
+			(project "ESC_Board"
+				(path "/c7f275f7-0597-4a7d-8593-149a5f6bff0e"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 40.64 166.37 90)
 		(unit 1)
@@ -18200,6 +19296,73 @@
 			(project "ESC_Board"
 				(path "/c7f275f7-0597-4a7d-8593-149a5f6bff0e"
 					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89637b11-35d6-44c0-a8dc-181d14fbf3b4")
+		(property "Reference" "#PWR0107"
+			(at 83.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 81.28 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dba89f73-e262-4552-a50e-479a43ebe4c5")
+		)
+		(instances
+			(project "ESC_Board"
+				(path "/c7f275f7-0597-4a7d-8593-149a5f6bff0e"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -18838,6 +20001,510 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 73.66 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93e9dac4-7be9-4c2f-a4ac-55e648a89b66")
+		(property "Reference" "#PWR0108"
+			(at 80.01 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.168 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ddb70b1-f9db-4ca7-9272-040bc6dc46fe")
+		)
+		(instances
+			(project "ESC_Board"
+				(path "/c7f275f7-0597-4a7d-8593-149a5f6bff0e"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "63824-1:63824-1")
+		(at 128.27 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "942054a4-af12-4371-94e6-a3424a54d1ed")
+		(property "Reference" "J1"
+			(at 128.27 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "63824-1"
+			(at 128.27 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:TRM2_63824-1_TEC"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR" "THT MALE CONNECTOR"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "APPLICATION" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE_DC" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PART_NUMBER" "63824-1"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICE_MODEL" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT_REFERANCE" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ORIENTATION" "Straight"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SIGNAL_INTEGRITY" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "GENDER" "Male"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE_AC" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LIBRARY_REF" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONFIGURATION" "Single Row"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_DESCRIPTION" "Connector,5.08mm,Straight"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHER" "TE Connectivity"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FINISH" "Tin"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "THT"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SERIES" "FASTON  | 250"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT_RATING" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESIGNATOR" "63824-1"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS_COMPLIANT" "Yes"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LATEST_REVISION_DATE" "25 June,2013"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHED" "20 Feb,2001"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "NO_OF_POSITION" "2"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT_PATH" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TECHNOLOGY" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_LINK" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F63824%7FR%7Fpdf%7FEnglish%7FENG_CD_63824_R_baseFilename.pdf%7F63824-1"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LATEST_REVISION_NOTE" "Revised per ECR-13-001204"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LIBRARY_PATH" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH" "5.08mm"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "TAB"
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 128.27 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b04a5021-7268-41b6-adfe-a6ac466476c1")
+		)
+		(pin "1"
+			(uuid "e34213b1-88ba-425f-ad78-33970799ac23")
+		)
+		(instances
+			(project ""
+				(path "/c7f275f7-0597-4a7d-8593-149a5f6bff0e"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Resistors:0603,10kΩ")
 		(at 210.82 69.85 90)
 		(unit 1)
@@ -19358,7 +21025,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 67.31 166.37 0)
+		(at 78.74 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19366,7 +21033,7 @@
 		(dnp no)
 		(uuid "9a8c362e-1d03-4dca-8543-161ec83e0908")
 		(property "Reference" "#PWR0106"
-			(at 67.31 170.18 0)
+			(at 78.74 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19375,7 +21042,7 @@
 			)
 		)
 		(property "Value" "+17V"
-			(at 66.802 163.068 0)
+			(at 78.232 163.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19383,7 +21050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 166.37 0)
+			(at 78.74 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19392,7 +21059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 166.37 0)
+			(at 78.74 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19401,7 +21068,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 67.31 166.37 0)
+			(at 78.74 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19410,7 +21077,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 67.31 166.37 0)
+			(at 78.74 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24873,6 +26540,444 @@
 			(project ""
 				(path "/c7f275f7-0597-4a7d-8593-149a5f6bff0e"
 					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "63824-1:63824-1")
+		(at 166.37 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f67e1a41-3338-4741-a129-e5084916a7e2")
+		(property "Reference" "J3"
+			(at 166.37 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "63824-1"
+			(at 166.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:TRM2_63824-1_TEC"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RESISTANCE" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR" "THT MALE CONNECTOR"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "APPLICATION" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE_DC" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TE_PART_NUMBER" "63824-1"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SPICE_MODEL" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT_REFERANCE" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ORIENTATION" "Straight"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SIGNAL_INTEGRITY" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "GENDER" "Male"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE_AC" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LIBRARY_REF" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CONFIGURATION" "Single Row"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PART_DESCRIPTION" "Connector,5.08mm,Straight"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHER" "TE Connectivity"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FINISH" "Tin"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "THT"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SERIES" "FASTON  | 250"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT_RATING" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESIGNATOR" "63824-1"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS_COMPLIANT" "Yes"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LATEST_REVISION_DATE" "25 June,2013"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PUBLISHED" "20 Feb,2001"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "NO_OF_POSITION" "2"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "FOOTPRINT_PATH" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TECHNOLOGY" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_LINK" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F63824%7FR%7Fpdf%7FEnglish%7FENG_CD_63824_R_baseFilename.pdf%7F63824-1"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LATEST_REVISION_NOTE" "Revised per ECR-13-001204"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LIBRARY_PATH" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH" "5.08mm"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "TYPE" "TAB"
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 166.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "863d6263-93e7-4a48-88ae-3f2124ff5316")
+		)
+		(pin "1"
+			(uuid "4ef3a56c-97e2-4948-a7a9-7a2cc8c7a625")
+		)
+		(instances
+			(project "ESC_Board"
+				(path "/c7f275f7-0597-4a7d-8593-149a5f6bff0e"
+					(reference "J3")
 					(unit 1)
 				)
 			)

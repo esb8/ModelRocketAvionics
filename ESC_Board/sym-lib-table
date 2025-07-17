@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "DRV8300")(type "KiCad")(uri "${KIPRJMOD}/DRV3800/ul_DRV8300DRGER/KiCADv6/2025-07-10_00-49-41.kicad_sym")(options "")(descr ""))
   (lib (name "TLV765501")(type "KiCad")(uri "${KIPRJMOD}/TLV765501/KiCADv6/2025-07-10_22-05-24.kicad_sym")(options "")(descr ""))
+  (lib (name "spade")(type "KiCad")(uri "${KIPRJMOD}/Spade/KiCADv6/63824-1.kicad_sym")(options "")(descr ""))
 )
