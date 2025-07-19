@@ -4,4 +4,5 @@
   (lib (name "L86")(type "KiCad")(uri "${KIPRJMOD}/L86/L86.kicad_sym")(options "")(descr ""))
   (lib (name "lora1276")(type "KiCad")(uri "${KIPRJMOD}/G-NiceRF lora1276-C1-915MHz/Lora1276.pretty/New_Library.kicad_sym")(options "")(descr ""))
   (lib (name "MC-311D")(type "KiCad")(uri "${KIPRJMOD}/USBC-16PIN/MC-311D.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "C:/Users/evanb/Documents/KiCad/easyeda2kicad/easyeda2kicad.kicad_sym")(options "")(descr ""))
 )

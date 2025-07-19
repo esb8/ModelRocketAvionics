@@ -9,4 +9,6 @@
   (lib (name "Switches")(type "KiCad")(uri "${KIPRJMOD}/Terminal Blocks/Switches.pretty")(options "")(descr ""))
   (lib (name "Logo")(type "KiCad")(uri "${KIPRJMOD}/Logo.pretty")(options "")(descr ""))
   (lib (name "SW-SHOUHAN_MST-22D18G23J_C2875122")(type "KiCad")(uri "${KIPRJMOD}/SW-SHOUHAN_MST-22D18G23J_C2875122")(options "")(descr ""))
+  (lib (name "ronghe RH-5001")(type "KiCad")(uri "${KIPRJMOD}/ronghe RH-5001")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "C:/Users/evanb/Documents/KiCad/easyeda2kicad/easyeda2kicad.pretty")(options "")(descr ""))
 )
