@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 0.85,
-          "width": 0.85
+          "drill": 0.6,
+          "height": 2.0,
+          "width": 1.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.0,
+          "width": 0.158242
         }
       ],
       "drc_exclusions": [],
@@ -223,6 +228,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -478,7 +487,7 @@
         "clearance": 0.0,
         "diff_pair_gap": 0.2032,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.1582,
+        "diff_pair_width": 0.146812,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -504,7 +513,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -592,12 +601,6 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Class",
           "name": "Class",
           "show": false
@@ -652,44 +655,8 @@
         },
         {
           "group_by": false,
-          "label": "LCSC Part Name",
-          "name": "LCSC Part Name",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Load Capacitance",
           "name": "Load Capacitance",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer Part",
-          "name": "Manufacturer Part",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Minimum Qty",
-          "name": "Minimum Qty",
           "show": false
         },
         {
@@ -772,18 +739,6 @@
         },
         {
           "group_by": false,
-          "label": "Supplier",
-          "name": "Supplier",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Supplier Part",
-          "name": "Supplier Part",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Temperature Coefficient",
           "name": "Temperature Coefficient",
           "show": false
@@ -822,12 +777,6 @@
           "group_by": false,
           "label": "Capacitance",
           "name": "Capacitance",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Normal Temperature Frequency Tolerance",
-          "name": "Normal Temperature Frequency Tolerance",
           "show": false
         },
         {
@@ -892,12 +841,6 @@
         },
         {
           "group_by": false,
-          "label": "Lens Color",
-          "name": "Lens Color",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Viewing Angle",
           "name": "Viewing Angle",
           "show": false
@@ -930,12 +873,36 @@
           "group_by": false,
           "label": "Manufacturer Product Number ",
           "name": "Manufacturer Product Number ",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Digikey Part Number",
+          "name": "Digikey Part Number",
           "show": false
         },
         {
           "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
+          "label": "LCSC Part Number",
+          "name": "LCSC Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Minimum Qty",
+          "name": "Minimum Qty",
           "show": false
         }
       ],
@@ -944,7 +911,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "LCSC Part Number"
     },
     "connection_grid_size": 50.0,
     "drawing": {
