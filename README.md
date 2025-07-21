@@ -13,7 +13,7 @@ This project aims to create a FPV drone with a custom all-in-one (AIO) PCB that 
   - Flight Controller: STM32F411CEU6 (ARM Cortex M4)
   - Power Distribution: High-current paths with filtering
   - ESC: AM32 compatible 4-in-1 design
-  - 
+    
  **Connectivity**
   - All peripherals utilize SPI for high-speed sensor communication
   - USB-C, JTAG, SWD
