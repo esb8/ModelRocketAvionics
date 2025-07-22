@@ -2948,119 +2948,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Antenna"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "AE"
-				(at -1.905 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Antenna"
-				(at -1.905 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Antenna"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "antenna"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Antenna_0_1"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Antenna_1_1"
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:PMEG3015EJ"
 			(pin_numbers
 				(hide yes)
@@ -9971,232 +9858,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "easyeda2kicad:TS1101S-4.5X4.5X5.5FSS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TS1101S-4.5X4.5X5.5FSS"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:SW-SMD_4P-L4.5-W4.5-P3.15-LS7.5-TL"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C49274267"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TS1101S-4.5X4.5X5.5FSS_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.52) (xy 0 0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.02) (xy -1.27 -0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0.76)
-					(radius 0.25)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -0.76)
-					(radius 0.25)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -0.76)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lora1276:LORA1276-C1-915MHZ"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -11288,26 +10949,6 @@
 		)
 		(uuid "3ce2d875-0184-4294-b5ee-78ba217b3c82")
 	)
-	(text "Schottky Diode for LiPo Power Source\n\n"
-		(exclude_from_sim no)
-		(at 196.85 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3ed9e160-e96c-4fc4-8d17-6946c4705595")
-	)
-	(text "Test Pads\n"
-		(exclude_from_sim no)
-		(at 89.154 164.846 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4148f8c6-84cb-492e-aa0e-e70526a93d0c")
-	)
 	(text "IMU\n"
 		(exclude_from_sim no)
 		(at 76.708 64.516 0)
@@ -11317,6 +10958,16 @@
 			)
 		)
 		(uuid "4e29ef6f-8dbb-45c6-9028-75a235574f3c")
+	)
+	(text "add batt prot\n"
+		(exclude_from_sim no)
+		(at 83.82 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4fb283dd-3675-4f3c-ad78-a8db82a63083")
 	)
 	(text "MC-311D\n"
 		(exclude_from_sim no)
@@ -11330,23 +10981,13 @@
 	)
 	(text "SWD Flash"
 		(exclude_from_sim no)
-		(at 140.716 164.592 0)
+		(at 192.786 164.592 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "5ba30f86-82d2-4138-be3a-a9015901a963")
-	)
-	(text "UART Flash"
-		(exclude_from_sim no)
-		(at 160.02 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5c5e156d-d80b-46f6-bd6a-722f4cf751c2")
 	)
 	(text "100mA(min)\n\n"
 		(exclude_from_sim no)
@@ -11388,6 +11029,16 @@
 		)
 		(uuid "7acde0bc-6427-4996-98cc-be2158951705")
 	)
+	(text "LiPo Connector\n"
+		(exclude_from_sim no)
+		(at 216.916 163.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7e64c00c-a4a6-403f-a5fb-f886a6f09a48")
+	)
 	(text "USB-C\n"
 		(exclude_from_sim no)
 		(at 16.256 143.002 0)
@@ -11397,6 +11048,16 @@
 			)
 		)
 		(uuid "8eb4b255-ace9-482d-aa9e-8274e419030d")
+	)
+	(text "check if there are other nss \n"
+		(exclude_from_sim no)
+		(at 268.224 163.576 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f2843da-8a1e-4ee5-b450-be7ec82f4f95")
 	)
 	(text "10mm clearance\n"
 		(exclude_from_sim no)
@@ -11417,6 +11078,16 @@
 			)
 		)
 		(uuid "9ada261d-9613-4dfb-98a4-23e7544f696f")
+	)
+	(text "add rvrse polarity\nprotection"
+		(exclude_from_sim no)
+		(at 84.074 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af054686-a2de-4080-8e84-29010007236e")
 	)
 	(text "STM32 Capacitors\n\n"
 		(exclude_from_sim no)
@@ -11457,6 +11128,16 @@
 			)
 		)
 		(uuid "dd4dd360-dacf-40ad-a317-139d7272f26a")
+	)
+	(text "find lower drpout\n"
+		(exclude_from_sim no)
+		(at 83.058 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e55d87f5-85db-4269-8752-5a7e83f7b2df")
 	)
 	(text "LORA 1276\n"
 		(exclude_from_sim no)
@@ -11649,10 +11330,10 @@
 		(uuid "b2d8b62a-0168-464e-b40f-c2295c0c5783")
 	)
 	(junction
-		(at 199.4268 96.9782)
+		(at 148.59 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b73f843f-1837-457d-a3e4-a2d9566c45de")
+		(uuid "b7c4675f-8811-4925-8d35-8a63c5dc7e0f")
 	)
 	(junction
 		(at 35.56 44.45)
@@ -11703,12 +11384,6 @@
 		(uuid "e3647f59-4aa0-4c5d-ae8e-fc01c953404d")
 	)
 	(junction
-		(at 148.59 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7c0d325-711c-40b5-968a-ee1e68bc7468")
-	)
-	(junction
 		(at 62.23 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11731,12 +11406,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f953d86e-4974-414d-9a8c-0f27df706320")
-	)
-	(junction
-		(at 48.26 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc43938b-f893-4126-8c35-43ed2b8bd4a7")
 	)
 	(no_connect
 		(at 138.43 115.57)
@@ -11767,16 +11436,8 @@
 		(uuid "1b5147f3-9117-4d33-8045-6736b7aecc96")
 	)
 	(no_connect
-		(at 16.51 154.94)
-		(uuid "424a2158-d028-4ad3-a512-ac880ceedf2e")
-	)
-	(no_connect
 		(at 138.43 120.65)
 		(uuid "52d775a1-3a1d-4391-9957-f4a5c38e0acb")
-	)
-	(no_connect
-		(at 194.3468 91.8982)
-		(uuid "66d71bf5-2d54-4ea4-a1ff-8185ebfede9c")
 	)
 	(no_connect
 		(at 101.6 35.56)
@@ -11785,6 +11446,10 @@
 	(no_connect
 		(at 138.43 128.27)
 		(uuid "763fe049-eca6-4bdd-8614-e2bedce926b2")
+	)
+	(no_connect
+		(at 264.1968 48.7182)
+		(uuid "7d420b4b-d619-4f88-a5e9-61e665a6c770")
 	)
 	(no_connect
 		(at 264.1968 76.6582)
@@ -12050,16 +11715,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 152.4) (xy 184.15 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e623a70-2b28-4a65-83a8-3e84caea170f")
-	)
-	(wire
-		(pts
 			(xy 111.76 133.35) (xy 113.03 133.35)
 		)
 		(stroke
@@ -12130,6 +11785,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 88.9) (xy 199.39 89.3582)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae749f8-de26-4d14-be7b-1726f2f48b61")
+	)
+	(wire
+		(pts
 			(xy 96.52 43.18) (xy 97.79 43.18)
 		)
 		(stroke
@@ -12147,6 +11812,16 @@
 			(type dash)
 		)
 		(uuid "325fc1b0-e45e-4e4f-8aca-9dde3d2021ee")
+	)
+	(wire
+		(pts
+			(xy 148.59 33.02) (xy 151.13 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "354a9314-8a13-4ae3-abd1-8e6ca0ed091d")
 	)
 	(polyline
 		(pts
@@ -12280,6 +11955,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 89.3582) (xy 199.4268 89.3582)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f924bb-025a-4760-a599-f6ff420812b7")
+	)
+	(wire
+		(pts
 			(xy 58.42 74.93) (xy 66.04 74.93)
 		)
 		(stroke
@@ -12380,16 +12065,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 156.21) (xy 16.51 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "562ca991-c7ca-4d14-bb5d-ee29e03d0f3e")
-	)
-	(wire
-		(pts
 			(xy 43.18 86.36) (xy 43.18 85.09)
 		)
 		(stroke
@@ -12420,6 +12095,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 73.66) (xy 113.03 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b046e29-3e95-44b8-a6d2-636e1bf228ab")
+	)
+	(wire
+		(pts
 			(xy 250.19 133.35) (xy 251.46 133.35)
 		)
 		(stroke
@@ -12427,6 +12112,16 @@
 			(type default)
 		)
 		(uuid "5bc02b7a-2a91-4cd3-b4cb-f6bac9664e90")
+	)
+	(wire
+		(pts
+			(xy 148.59 35.56) (xy 151.13 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c385fb6-818e-4c4e-a892-337c9aa3efb2")
 	)
 	(wire
 		(pts
@@ -12460,16 +12155,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.1868 89.3582) (xy 199.4268 89.3582)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e4b1e1a-411a-4dd1-9717-8dfc07007304")
-	)
-	(wire
-		(pts
 			(xy 212.1268 104.5982) (xy 212.1268 103.3282)
 		)
 		(stroke
@@ -12477,6 +12162,16 @@
 			(type default)
 		)
 		(uuid "5f1d44ed-9564-4522-924b-ad65c7768a57")
+	)
+	(wire
+		(pts
+			(xy 190.5 88.9) (xy 199.39 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f52ca39-751a-449e-a17a-2dd9b2f64897")
 	)
 	(wire
 		(pts
@@ -12550,16 +12245,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 156.21) (xy 16.51 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f9cda51-4883-47f6-b990-da50c9e9c91e")
-	)
-	(wire
-		(pts
 			(xy 43.18 24.13) (xy 35.56 24.13)
 		)
 		(stroke
@@ -12567,16 +12252,6 @@
 			(type default)
 		)
 		(uuid "723dc737-4630-4173-b5c6-ffc5b64c2ebe")
-	)
-	(polyline
-		(pts
-			(xy 177.8476 165.8939) (xy 177.8 144.78)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "76af5d55-c2f9-483c-aa99-5da98200f30e")
 	)
 	(wire
 		(pts
@@ -12600,16 +12275,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 154.94) (xy 26.67 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "783da88e-e280-478c-b9ab-9f05811f3f1a")
-	)
-	(wire
-		(pts
 			(xy 273.0868 69.0382) (xy 274.3568 69.0382)
 		)
 		(stroke
@@ -12617,6 +12282,16 @@
 			(type default)
 		)
 		(uuid "79b5cf20-0632-4183-94b8-1c10ecfe79d5")
+	)
+	(wire
+		(pts
+			(xy 190.5 89.4101) (xy 190.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79bf898d-57dd-4152-879d-bd7934fde75d")
 	)
 	(wire
 		(pts
@@ -12650,16 +12325,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 161.29) (xy 184.15 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81f1f09f-5bc9-4550-b2d0-a45cca6d34d0")
-	)
-	(wire
-		(pts
 			(xy 185.4568 84.2782) (xy 193.0768 84.2782)
 		)
 		(stroke
@@ -12677,6 +12342,16 @@
 			(type default)
 		)
 		(uuid "838e12f0-8a98-48b4-9de3-64a2f4f2d058")
+	)
+	(wire
+		(pts
+			(xy 16.51 166.37) (xy 16.51 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b2c311-fb37-42f3-9b89-d87035101073")
 	)
 	(wire
 		(pts
@@ -12858,16 +12533,6 @@
 		)
 		(uuid "9ad88af7-61f3-453e-861a-b65f1b1f8269")
 	)
-	(polyline
-		(pts
-			(xy 153.67 166.37) (xy 153.67 144.78)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "9b0512f7-9a04-4578-a43d-f9145788c263")
-	)
 	(wire
 		(pts
 			(xy 264.1968 75.3882) (xy 264.1968 74.1182)
@@ -12897,16 +12562,6 @@
 			(type default)
 		)
 		(uuid "a0f50ef3-9ba6-4724-be21-e9947fbbee82")
-	)
-	(wire
-		(pts
-			(xy 151.13 33.02) (xy 148.59 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a126c007-e3d9-4892-a7dd-c65709b7388f")
 	)
 	(wire
 		(pts
@@ -12970,16 +12625,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 35.56) (xy 148.59 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad02e027-aa7f-4274-ac18-57152ca86a07")
-	)
-	(wire
-		(pts
 			(xy 274.3568 66.4982) (xy 273.0868 66.4982)
 		)
 		(stroke
@@ -12987,6 +12632,16 @@
 			(type default)
 		)
 		(uuid "b06b3ab7-7161-4403-95c8-e39ff19d1b23")
+	)
+	(wire
+		(pts
+			(xy 16.51 166.37) (xy 16.5078 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f752b5-6f87-4bfb-ab56-4338553112ee")
 	)
 	(wire
 		(pts
@@ -13047,16 +12702,6 @@
 			(type default)
 		)
 		(uuid "b43287a9-f8d6-4088-b978-67b6dd58a2a7")
-	)
-	(wire
-		(pts
-			(xy 194.3468 96.9782) (xy 199.4268 96.9782)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4c5ea49-cd60-468c-ae6b-60b54c0dde7b")
 	)
 	(wire
 		(pts
@@ -13137,6 +12782,16 @@
 			(type default)
 		)
 		(uuid "c49a7fa2-5078-4c6e-8421-cf0284150982")
+	)
+	(polyline
+		(pts
+			(xy 177.8 165.735) (xy 177.8 144.78)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c5685166-3eba-47c5-a227-b3c72d1abfd4")
 	)
 	(wire
 		(pts
@@ -13220,6 +12875,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 154.94) (xy 215.9 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee5486b-98dc-40b8-814a-e2d3f4e65157")
+	)
+	(wire
+		(pts
 			(xy 241.3 130.81) (xy 250.19 130.81)
 		)
 		(stroke
@@ -13257,16 +12922,6 @@
 			(type dash)
 		)
 		(uuid "d3105ed7-ed31-4cdc-b260-bb2ad7ef6284")
-	)
-	(polyline
-		(pts
-			(xy 83.82 166.37) (xy 176.53 166.37)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "d3211c6b-bbd7-4ebe-8987-5713ee67aafb")
 	)
 	(wire
 		(pts
@@ -13340,16 +12995,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.1868 91.8982) (xy 184.1868 89.3582)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e74c2784-b75a-4bf6-a295-bab37ea6534d")
-	)
-	(wire
-		(pts
 			(xy 48.26 72.39) (xy 46.99 72.39)
 		)
 		(stroke
@@ -13390,16 +13035,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 43.18) (xy 48.26 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed00ff3b-a2aa-4da5-973f-f17eea825f3f")
-	)
-	(wire
-		(pts
 			(xy 196.947 17.9291) (xy 204.567 17.9291)
 		)
 		(stroke
@@ -13407,6 +13042,16 @@
 			(type default)
 		)
 		(uuid "eeb103d9-fb60-4fd0-8d14-5897ecc6d555")
+	)
+	(wire
+		(pts
+			(xy 190.5022 89.4101) (xy 190.5 89.4101)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efe33f4f-a333-43b0-aa2f-d52bfa539e5a")
 	)
 	(wire
 		(pts
@@ -13440,16 +13085,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 40.64) (xy 48.26 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4d94972-7a6c-4349-99ea-ad2c317c1c23")
-	)
-	(wire
-		(pts
 			(xy 35.56 24.13) (xy 35.56 29.21)
 		)
 		(stroke
@@ -13477,16 +13112,6 @@
 			(type dash)
 		)
 		(uuid "f7f41933-8ad0-463a-a27b-6c55c506b5bf")
-	)
-	(polyline
-		(pts
-			(xy 134.62 166.37) (xy 134.62 144.78)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "f892722e-2312-4f02-834d-085958aaf267")
 	)
 	(wire
 		(pts
@@ -13559,7 +13184,7 @@
 		(uuid "00dcc68b-1749-401e-bb7e-027198b0babc")
 	)
 	(label "SWCLK"
-		(at 143.51 154.94 0)
+		(at 195.58 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13608,15 +13233,15 @@
 		)
 		(uuid "192a99b6-450a-4c6f-85db-c40f6fb63b48")
 	)
-	(label "SPI1_MOSI"
-		(at 97.79 153.67 180)
+	(label "Debug_RX"
+		(at 189.23 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "1a76294c-48a1-4aef-bbac-dbe8aea37a62")
+		(uuid "1b7a967d-5c28-4fc4-a1bb-4953a2420903")
 	)
 	(label "SPI1_MISO"
 		(at 264.1968 81.7382 0)
@@ -13627,6 +13252,16 @@
 			(justify left bottom)
 		)
 		(uuid "1ba97f3c-aa43-4747-92b7-05feeaa34564")
+	)
+	(label "SPI3_MOSI"
+		(at 250.19 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ca455af-d038-45a5-b9cd-8ac26c4516f1")
 	)
 	(label "SWDIO"
 		(at 264.1968 63.9582 0)
@@ -13647,6 +13282,16 @@
 			(justify left bottom)
 		)
 		(uuid "2648ace3-e3cd-4bff-9459-c92d9e1e6b06")
+	)
+	(label "LIPO"
+		(at 215.9 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "335752ae-3f42-49b8-a8b1-f119607b53e5")
 	)
 	(label "SPI5_NSS"
 		(at 264.1968 51.2582 0)
@@ -13678,16 +13323,6 @@
 		)
 		(uuid "40c93ba8-55fe-4a6e-8489-009c3570b1d5")
 	)
-	(label "MCU_RX2"
-		(at 189.23 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "419e8950-0590-4f2b-b3a6-4ca50af6a9f5")
-	)
 	(label "Debug_RX"
 		(at 264.1968 72.8482 0)
 		(effects
@@ -13708,18 +13343,8 @@
 		)
 		(uuid "4698d177-22d8-47af-9f58-a72b145436db")
 	)
-	(label "Lora_RES"
-		(at 264.1968 48.7182 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a13a80c-06f0-4316-8e1e-109d121d2671")
-	)
 	(label "SWDIO"
-		(at 143.51 157.48 0)
+		(at 195.58 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13848,6 +13473,16 @@
 		)
 		(uuid "7ca34f6b-64aa-44f4-8ff8-ab61215143ed")
 	)
+	(label "SPI3_SCK"
+		(at 250.19 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7cd8d9a8-aa45-4b68-b71f-5152d986973e")
+	)
 	(label "SPI1_NSS"
 		(at 264.1968 86.8182 0)
 		(effects
@@ -13878,26 +13513,6 @@
 		)
 		(uuid "87bd461f-288f-4b54-bcd5-d2e8a041a7c9")
 	)
-	(label "LIPO_3.3V"
-		(at 185.42 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "89d4bb88-5b05-4d14-bb69-8e149c914c52")
-	)
-	(label "SPI1_MISO"
-		(at 250.19 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "91cf7b4c-df0a-4757-abaa-af4ebc99b135")
-	)
 	(label "MCU_TX2"
 		(at 264.1968 91.8982 0)
 		(effects
@@ -13907,16 +13522,6 @@
 			(justify left bottom)
 		)
 		(uuid "97b5c94c-4736-4bfb-a7c6-1227b471d93c")
-	)
-	(label "Debug_TX"
-		(at 162.56 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1840195-6f45-4491-8487-4fd3d3038bd4")
 	)
 	(label "SPI1_MISO"
 		(at 110.49 118.11 180)
@@ -13978,26 +13583,6 @@
 		)
 		(uuid "c07d620c-b032-49b9-98f5-b05d4a9b5e5c")
 	)
-	(label "Debug_RX"
-		(at 162.56 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4a9ddab-e11e-42bd-b0ec-d24456f395d5")
-	)
-	(label "SPI1_MOSI"
-		(at 250.19 135.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c50c4b46-5a42-4a00-bd06-8560a6cf4a20")
-	)
 	(label "Lora_RES"
 		(at 110.49 128.27 180)
 		(effects
@@ -14017,6 +13602,16 @@
 			(justify left bottom)
 		)
 		(uuid "c646e32f-c567-4483-92fc-121a6e921040")
+	)
+	(label "Debug_TX"
+		(at 189.23 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c98250be-7740-4e65-b30b-98b1c6dd0bf6")
 	)
 	(label "SPI2_MOSI"
 		(at 151.13 33.02 0)
@@ -14038,16 +13633,6 @@
 		)
 		(uuid "ca506b81-537d-4ae3-89e1-0afe0eff314d")
 	)
-	(label "SPI2_MOSI"
-		(at 120.65 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cc7c74a3-04c8-4842-afe1-0c87df77452b")
-	)
 	(label "SPI3_SCK"
 		(at 264.1968 46.1782 0)
 		(effects
@@ -14057,26 +13642,6 @@
 			(justify left bottom)
 		)
 		(uuid "ccd7aab9-e3fc-4f43-b557-30061faf3e72")
-	)
-	(label "LIPO_3.3V"
-		(at 213.36 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ce9c954e-4086-43de-bf6d-b70bb85fa6be")
-	)
-	(label "MCU_TX2"
-		(at 189.23 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cecfaae5-0733-44d2-ae32-f22f0b9da3d7")
 	)
 	(label "USB_FS_DN"
 		(at 53.34 100.33 0)
@@ -14088,36 +13653,6 @@
 		)
 		(uuid "dca5f431-812b-472a-867e-3a56021f51d0")
 	)
-	(label "SPI2_MISO"
-		(at 120.65 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dead7585-e578-402a-b60f-d4025b11fb6c")
-	)
-	(label "SPI2_SCK"
-		(at 120.65 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e263a6f7-3aa2-4170-a962-2c19cfc73c58")
-	)
-	(label "SPI1_SCK"
-		(at 97.79 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e3e4330c-5a07-4b50-908c-46d9ad446223")
-	)
 	(label "MCU_RX1"
 		(at 264.1968 36.0182 0)
 		(effects
@@ -14128,25 +13663,15 @@
 		)
 		(uuid "e7d502a2-a08b-4b8a-88fe-f51ff62b7433")
 	)
-	(label "SPI1_SCK"
-		(at 250.19 133.35 180)
+	(label "SPI3_MISO"
+		(at 250.19 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "ed0bb9e5-de82-4ec0-b03f-b7e98ed6359d")
-	)
-	(label "SPI1_MISO"
-		(at 97.79 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee19c46e-f6c0-413c-be8c-9931e6288f6b")
+		(uuid "ee33edcd-97f5-46a1-af50-3c8067b024a0")
 	)
 	(label "SPI3_NSS"
 		(at 55.88 43.18 270)
@@ -14159,7 +13684,7 @@
 		(uuid "f312536b-985d-449c-a96b-f741866141de")
 	)
 	(label "SPI3_SCK"
-		(at 48.26 43.18 270)
+		(at 48.26 34.29 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14195,7 +13720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 60.198 69.85 90)
 			(effects
 				(font
@@ -14354,6 +13879,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C25087"
@@ -14362,6 +13888,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14403,7 +13930,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm"
@@ -14567,6 +14093,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -14575,6 +14102,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -14583,6 +14111,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -14591,6 +14120,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -14599,6 +14129,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -14607,6 +14138,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C7301971"
@@ -14615,6 +14147,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" ""
@@ -14673,7 +14206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 246.38 143.002 90)
 			(effects
 				(font
@@ -14832,6 +14365,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -14840,6 +14374,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -14848,6 +14383,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -14856,6 +14392,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -14864,6 +14401,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -14872,6 +14410,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C25905"
@@ -14880,6 +14419,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15029,104 +14569,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:TS1101S-4.5X4.5X5.5FSS")
-		(at 189.2668 94.4382 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0901f18f-6aba-45ce-8cfe-c4edd14ef6c3")
-		(property "Reference" "RESET1"
-			(at 181.1388 93.6762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TS1101S"
-			(at 189.2668 99.2642 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L4.5-W4.5-P3.15-LS7.5-TL"
-			(at 189.2668 104.5982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.2668 94.4382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.2668 94.4382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 189.2668 94.4382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Number" "C49274267"
-			(at 189.2668 94.4382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 189.2668 94.4382 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "695a4454-be83-4581-b597-cb623c0553d5")
-		)
-		(pin "2"
-			(uuid "e2d50752-fd03-4880-ab7c-9ecd0636abe1")
-		)
-		(pin "4"
-			(uuid "5a34df88-1a0c-48f1-8ef6-4f2f483c1947")
-		)
-		(pin "1"
-			(uuid "720d3279-663b-4a0a-9ee3-b74ade6a0152")
-		)
-		(instances
-			(project "DroneController"
-				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "RESET1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 157.48 48.26 270)
 		(unit 1)
@@ -15152,7 +14594,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -15319,6 +14760,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -15354,6 +14796,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -15362,6 +14805,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -15370,6 +14814,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -15378,6 +14823,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -15386,6 +14832,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -15394,6 +14841,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C1525"
@@ -15402,6 +14850,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15511,7 +14960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB-C:USB-C"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 31.75 97.79 0)
 			(effects
 				(font
@@ -15544,6 +14993,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -15552,6 +15002,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -15560,6 +15011,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -15568,6 +15020,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -15576,6 +15029,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -15584,6 +15038,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C136423"
@@ -15592,6 +15047,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "A7"
@@ -15837,6 +15293,7 @@
 				(font
 					(size 0.8 0.8)
 				)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -15872,6 +15329,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -15880,6 +15338,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -15888,6 +15347,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -15896,6 +15356,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -15904,6 +15365,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -15912,6 +15374,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C1525"
@@ -15920,6 +15383,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15997,6 +15461,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -16005,6 +15470,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -16013,6 +15479,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -16021,6 +15488,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -16029,6 +15497,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -16037,6 +15506,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C500795"
@@ -16045,6 +15515,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16132,73 +15603,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 162.56 152.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13d79123-8ff9-4d5a-8bc8-e625290009d6")
-		(property "Reference" "#PWR073"
-			(at 168.91 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "778f6530-6a39-469c-b619-ee0b1175f007")
-		)
-		(instances
-			(project "DroneController"
-				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lora1276:LORA1276-C1-915MHZ")
 		(at 125.73 124.46 0)
 		(unit 1)
@@ -16222,7 +15626,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Lora1276:COMM-SMD_LORA1276-C1-915MHZ"
@@ -16258,6 +15661,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -16266,6 +15670,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -16274,6 +15679,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -16282,6 +15688,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -16290,6 +15697,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -16298,6 +15706,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C3001531"
@@ -16306,6 +15715,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -16360,72 +15770,6 @@
 			(project ""
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 26.67 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1662a38c-3081-4d6a-b797-5ba62283694b")
-		(property "Reference" "#PWR074"
-			(at 33.02 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 31.75 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8caabda-edcd-4dd9-a06b-2500eb4aea41")
-		)
-		(instances
-			(project "DroneController"
-				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -16489,6 +15833,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -16497,6 +15842,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -16505,6 +15851,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -16513,6 +15860,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -16521,6 +15869,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -16529,6 +15878,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C60420"
@@ -16537,6 +15887,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -16786,6 +16137,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CONN-TH_B2B-XH-A-LF-SN"
@@ -16821,6 +16173,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -16829,6 +16182,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -16837,6 +16191,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -16845,6 +16200,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -16853,6 +16209,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -16861,6 +16218,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C158012"
@@ -16869,6 +16227,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17146,6 +16505,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±20%"
@@ -17181,6 +16541,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C23733"
@@ -17189,6 +16550,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17274,32 +16636,34 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:TS1101S-4.5X4.5X5.5FSS")
-		(at 21.59 152.4 180)
+		(lib_id "power:+3.3V")
+		(at 209.55 154.94 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "22a4a431-2710-4eee-af0a-f104069f8df3")
-		(property "Reference" "RESET2"
-			(at 25.908 152.146 0)
+		(uuid "1f6ef832-81cb-40d4-a878-c35dea8a75d7")
+		(property "Reference" "#PWR075"
+			(at 209.55 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.7V"
+			(at 209.55 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TS1101S"
-			(at 21.59 146.558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L4.5-W4.5-P3.15-LS7.5-TL"
-			(at 21.59 142.24 0)
+		(property "Footprint" ""
+			(at 209.55 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17308,7 +16672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 152.4 0)
+			(at 209.55 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17316,56 +16680,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 21.59 152.4 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 209.55 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Digikey Part Number" ""
-			(at 21.59 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Number" "C49274267"
-			(at 21.59 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 21.59 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3f502684-dc0c-4093-9e1d-c92001bef24d")
-		)
-		(pin "2"
-			(uuid "b1f2419a-277c-4c25-809e-4137f0d39703")
-		)
-		(pin "4"
-			(uuid "e333aa98-54c6-4a71-990a-c1323894c92c")
 		)
 		(pin "1"
-			(uuid "4da9ca38-b677-47bf-afcd-046e7232f47e")
+			(uuid "c1eb5aa0-e667-4859-a70a-456894f8dc2f")
 		)
 		(instances
-			(project "DroneController"
+			(project "ModelRocketAvionics"
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "RESET2")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -17398,7 +16728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 269.2768 68.2762 90)
 			(effects
 				(font
@@ -17557,6 +16887,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C25092"
@@ -17565,6 +16896,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17583,16 +16915,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 162.56 160.02 270)
+		(lib_id "power:GND")
+		(at 16.51 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2897c271-4fc8-4166-a4c1-94606f036214")
-		(property "Reference" "#PWR02"
-			(at 158.75 160.02 0)
+		(uuid "27b4a6c7-79bd-442b-b234-758ed325de39")
+		(property "Reference" "#PWR059"
+			(at 16.51 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17600,17 +16932,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 165.354 160.02 90)
+		(property "Value" "GND"
+			(at 16.256 150.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 160.02 0)
+			(at 16.51 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17619,7 +16950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 160.02 0)
+			(at 16.51 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17627,8 +16958,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 162.56 160.02 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 16.51 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17637,12 +16968,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "627bbbe3-6b0b-403d-b6ff-69a71ce73b86")
+			(uuid "32a7438a-be94-4103-b7f3-d0f412e46f0b")
 		)
 		(instances
-			(project "DroneController"
+			(project "ModelRocketAvionics"
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "#PWR02")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -17708,87 +17039,6 @@
 			(project "DroneController"
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 97.79 156.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ac4c5da-367a-438b-a82d-71b0aa4832c4")
-		(property "Reference" "SCK1"
-			(at 105.156 156.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 101.092 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
-			(at 97.79 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 97.79 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 97.79 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Number" "C238131"
-			(at 97.79 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d967a166-07cf-4927-b985-c6da0540f2ae")
-		)
-		(instances
-			(project "DroneController"
-				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "SCK1")
 					(unit 1)
 				)
 			)
@@ -18118,6 +17368,7 @@
 					(size 0.8 0.8)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±20%"
@@ -18153,6 +17404,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -18161,6 +17413,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -18169,6 +17422,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -18177,6 +17431,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -18185,6 +17440,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -18193,6 +17449,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C23733"
@@ -18201,6 +17458,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18219,75 +17477,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 213.36 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31f84f10-6397-4022-92d9-da014dc7aba7")
-		(property "Reference" "#PWR049"
-			(at 217.17 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 209.55 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 213.36 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92bc79df-ecf3-449f-9a12-7ea68f3acd04")
-		)
-		(instances
-			(project "DroneController"
-				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
-		(at 143.51 160.02 270)
+		(at 195.58 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18295,7 +17486,7 @@
 		(dnp no)
 		(uuid "358daa63-1ad3-4ec2-b608-fd86638790d9")
 		(property "Reference" "#PWR01"
-			(at 139.7 160.02 0)
+			(at 191.77 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18304,7 +17495,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 146.304 160.02 90)
+			(at 198.374 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18313,7 +17504,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 160.02 0)
+			(at 195.58 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18322,7 +17513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 160.02 0)
+			(at 195.58 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18331,7 +17522,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 143.51 160.02 0)
+			(at 195.58 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18475,6 +17666,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C2655099"
@@ -18483,6 +17675,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "11"
@@ -18561,7 +17754,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -18629,7 +17821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 246.38 139.192 90)
 			(effects
 				(font
@@ -18788,6 +17980,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -18796,6 +17989,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -18804,6 +17998,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -18812,6 +18007,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -18820,6 +18016,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -18828,6 +18025,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C25905"
@@ -18836,6 +18034,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19013,7 +18212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 46.99 78.232 90)
 			(effects
 				(font
@@ -19172,6 +18371,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -19180,6 +18380,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -19188,6 +18389,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -19196,6 +18398,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -19204,6 +18407,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -19212,6 +18416,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C25905"
@@ -19220,6 +18425,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19331,7 +18537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 59.69 44.958 90)
 			(effects
 				(font
@@ -19490,6 +18696,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C25905"
@@ -19498,6 +18705,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19517,7 +18725,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 152.4 90)
+		(at 195.58 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19526,7 +18734,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fe5c8bb-c09e-4908-a183-5eb454d8bde3")
 		(property "Reference" "#PWR057"
-			(at 149.86 152.4 0)
+			(at 201.93 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19535,7 +18743,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 152.4 0)
+			(at 200.66 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19544,7 +18752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 152.4 0)
+			(at 195.58 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19553,7 +18761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 152.4 0)
+			(at 195.58 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19562,7 +18770,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 152.4 0)
+			(at 195.58 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19707,6 +18915,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±5%"
@@ -19742,6 +18951,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C1554"
@@ -19750,6 +18960,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19861,7 +19072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 99.568 129.54 90)
 			(effects
 				(font
@@ -20020,6 +19231,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C25905"
@@ -20028,6 +19240,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20104,6 +19317,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -20112,6 +19326,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -20120,6 +19335,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -20128,6 +19344,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -20136,6 +19353,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -20144,6 +19362,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C83291"
@@ -20152,6 +19371,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -20311,6 +19531,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -20346,6 +19567,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -20354,6 +19576,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -20362,6 +19585,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -20370,6 +19594,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -20378,6 +19603,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -20386,6 +19612,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C1525"
@@ -20394,6 +19621,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20406,87 +19634,6 @@
 			(project "DroneController"
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 120.65 156.21 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a3a160e-07e6-4bcd-b082-fd6f30ec0f8f")
-		(property "Reference" "SCK2"
-			(at 128.016 156.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 123.952 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
-			(at 120.65 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 120.65 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 120.65 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Number" "C238131"
-			(at 120.65 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76a474bf-90b5-4a17-81f9-8be5b517fa77")
-		)
-		(instances
-			(project "DroneController"
-				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "SCK2")
 					(unit 1)
 				)
 			)
@@ -20617,6 +19764,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±5%"
@@ -20652,6 +19800,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C1554"
@@ -20660,6 +19809,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20672,6 +19822,82 @@
 			(project "DroneController"
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 16.51 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a845df2-955d-4653-86cf-e4d0077d3e05")
+		(property "Reference" "TP5"
+			(at 18.034 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 10.922 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 11.43 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 11.43 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 16.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 16.51 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8e27ea6-cab1-4ff4-892e-5024db846de6")
+		)
+		(instances
+			(project "ModelRocketAvionics"
+				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -20768,6 +19994,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -20776,6 +20003,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -20784,6 +20012,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -20792,6 +20021,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -20800,6 +20030,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer Product Number " "L86-M33"
@@ -20817,6 +20048,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20988,6 +20220,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -21023,6 +20256,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -21031,6 +20265,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -21039,6 +20274,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -21047,6 +20283,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -21055,6 +20292,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -21063,6 +20301,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C1525"
@@ -21071,6 +20310,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21379,7 +20619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 269.2768 70.8162 90)
 			(effects
 				(font
@@ -21538,6 +20778,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C25092"
@@ -21546,6 +20787,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21631,7 +20873,7 @@
 	(symbol
 		(lib_name "Conn_01x02_MountingPin_2")
 		(lib_id "Connector_Generic_MountingPin:Conn_01x02_MountingPin")
-		(at 218.44 154.94 0)
+		(at 220.98 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21639,7 +20881,7 @@
 		(dnp no)
 		(uuid "5a7dfe6d-5901-4a01-9bb1-8c85741b948f")
 		(property "Reference" "LIPO1"
-			(at 220.98 155.2955 0)
+			(at 223.52 155.2955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21648,16 +20890,17 @@
 			)
 		)
 		(property "Value" "Connector"
-			(at 211.836 151.638 0)
+			(at 214.376 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CONN-TH_B2B-XH-A-LF-SN"
-			(at 218.44 154.94 0)
+			(at 220.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21666,7 +20909,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 154.94 0)
+			(at 220.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21675,7 +20918,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 218.44 154.94 0)
+			(at 220.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21684,59 +20927,66 @@
 			)
 		)
 		(property "DC Resistance (DCR)" ""
-			(at 218.44 154.94 0)
+			(at 220.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
-			(at 218.44 154.94 0)
+			(at 220.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
-			(at 218.44 154.94 0)
+			(at 220.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
-			(at 218.44 154.94 0)
+			(at 220.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
-			(at 218.44 154.94 0)
+			(at 220.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 218.44 154.94 0)
+			(at 220.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C158012"
-			(at 218.44 154.94 0)
+			(at 220.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21887,6 +21137,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C2297"
@@ -21895,6 +21146,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -21973,6 +21225,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C32798641"
@@ -21981,6 +21234,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22022,7 +21276,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -22066,7 +21319,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 113.03 74.93 0)
+		(at 113.03 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22074,7 +21327,7 @@
 		(dnp no)
 		(uuid "61434d0f-e656-4a58-9612-952af22698fe")
 		(property "Reference" "#PWR039"
-			(at 113.03 78.74 0)
+			(at 113.03 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22083,7 +21336,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 116.332 73.152 0)
+			(at 116.332 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22091,7 +21344,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 74.93 0)
+			(at 113.03 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22100,7 +21353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 74.93 0)
+			(at 113.03 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22109,7 +21362,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 113.03 74.93 0)
+			(at 113.03 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22190,6 +21443,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22297,7 +21551,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SW-SHOUHAN_MST-22D18G23J_C2875122:SW-SMD_SHOUHAN_MST-22D18G23J_C2875122"
@@ -22333,6 +21586,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C2875122"
@@ -22341,6 +21595,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" ""
@@ -22397,7 +21652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 157.988 41.91 90)
 			(effects
 				(font
@@ -22556,6 +21811,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C25905"
@@ -22564,6 +21820,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22841,6 +22098,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -22849,6 +22107,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -22857,6 +22116,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -22865,6 +22125,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -22873,6 +22134,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -22881,6 +22143,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C131025"
@@ -22889,6 +22152,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -23049,6 +22313,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -23084,6 +22349,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -23092,6 +22358,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -23100,6 +22367,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -23108,6 +22376,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -23116,6 +22385,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -23124,6 +22394,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C1525"
@@ -23132,6 +22403,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -23419,6 +22691,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C84256"
@@ -23427,6 +22700,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -23505,282 +22779,6 @@
 			(project "DroneController"
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 16.51 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "852cb35f-5b06-4d2a-9c37-848beb2e1888")
-		(property "Reference" "#PWR059"
-			(at 16.51 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 16.51 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 16.51 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 16.51 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 16.51 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8db064d4-cf54-47ca-9197-ce6fcb7efaad")
-		)
-		(instances
-			(project "DroneController"
-				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "0402,5.1kΩ_2")
-		(lib_id "PCM_JLCPCB-Resistors:0402,5.1kΩ")
-		(at 44.45 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85e46e21-1273-466c-82f1-a91e4c26bb59")
-		(property "Reference" "R15"
-			(at 44.704 38.354 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1kΩ"
-			(at 44.45 40.64 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 44.45 38.862 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 5.1kΩ 0402 Chip Resistor - Surface Mount ROHS"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Stock" "2504561"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" "0.004USD"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Process" "SMT"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Attrition Qty" "10"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part" "0402WGF5101TCE"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "5.1kΩ"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power(Watts)" "62.5mW"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "Thick Film Resistors"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Overload Voltage (Max)" "50V"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Number" "C25905"
-			(at 44.45 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "34ba6cdd-2981-47c8-b6bb-7cd525787a0a")
-		)
-		(pin "1"
-			(uuid "c95aab1e-10cd-491d-829c-716549692eb0")
-		)
-		(instances
-			(project "DroneController"
-				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -23977,6 +22975,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±20%"
@@ -24012,6 +23011,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C23733"
@@ -24020,6 +23020,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -24105,35 +23106,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna")
-		(at 138.43 138.43 180)
+		(lib_id "power:+5V")
+		(at 113.03 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f83533b-af71-4017-a834-dc87a3be7155")
-		(property "Reference" "AE1"
-			(at 140.97 136.5249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "915MHZ Antenna"
-			(at 140.97 139.0649 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_BAT_Wireless_BWSMA-KWE-Z001"
-			(at 138.43 138.43 0)
+		(uuid "8efc5e3e-aa68-4562-9c9c-1ad19d7f59ea")
+		(property "Reference" "#PWR050"
+			(at 116.84 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24141,8 +23123,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 138.43 138.43 0)
+		(property "Value" "+3.7V"
+			(at 105.918 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24150,8 +23140,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Antenna"
-			(at 138.43 138.43 0)
+		(property "Datasheet" ""
+			(at 113.03 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24159,69 +23149,22 @@
 				(hide yes)
 			)
 		)
-		(property "DC Resistance (DCR)" ""
-			(at 138.43 138.43 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 113.03 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Frequency - Self Resonant" ""
-			(at 138.43 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Inductance" ""
-			(at 138.43 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Q @ Freq" ""
-			(at 138.43 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rated Current" ""
-			(at 138.43 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 138.43 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Number" "C496551"
-			(at 138.43 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "9d0f3587-b1f8-4f7b-868b-efb25c608326")
+			(uuid "6d6b508b-d6bb-442d-846e-98d6be598753")
 		)
 		(instances
-			(project ""
+			(project "ModelRocketAvionics"
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "AE1")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -24432,6 +23375,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C84256"
@@ -24440,6 +23384,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -24548,7 +23493,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -24585,87 +23529,6 @@
 			(project "DroneController"
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 97.79 153.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "99cac771-8445-4861-8160-5ccc446e23e0")
-		(property "Reference" "MOSI1"
-			(at 105.41 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 101.092 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
-			(at 97.79 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 97.79 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 97.79 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Number" "C238131"
-			(at 97.79 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c156b6c5-33ad-4837-91c2-932ce27e58d6")
-		)
-		(instances
-			(project "DroneController"
-				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "MOSI1")
 					(unit 1)
 				)
 			)
@@ -24948,6 +23811,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -24983,6 +23847,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C2999759"
@@ -24991,6 +23856,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -25195,6 +24061,7 @@
 				(font
 					(size 0.8 0.8)
 				)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -25230,6 +24097,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -25238,6 +24106,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -25246,6 +24115,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -25254,6 +24124,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -25262,6 +24133,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -25270,6 +24142,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C15195"
@@ -25652,6 +24525,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CONN-TH_B2B-XH-A-LF-SN"
@@ -25687,6 +24561,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -25695,6 +24570,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -25703,6 +24579,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -25711,6 +24588,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -25719,6 +24597,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -25727,6 +24606,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C158012"
@@ -25735,6 +24615,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -25877,6 +24758,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -25912,6 +24794,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -25920,6 +24803,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -25928,6 +24812,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -25936,6 +24821,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -25944,6 +24830,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -25952,6 +24839,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C1525"
@@ -25960,6 +24848,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -26101,6 +24990,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -26136,6 +25026,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -26144,6 +25035,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -26152,6 +25044,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -26160,6 +25053,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -26168,6 +25062,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -26176,6 +25071,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C1525"
@@ -26184,6 +25080,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -26228,7 +25125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 276.3888 79.1982 90)
 			(effects
 				(font
@@ -26387,6 +25284,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C4275"
@@ -26395,6 +25293,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -26407,162 +25306,6 @@
 			(project ""
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 157.48 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bb8ea53f-34da-4455-b79b-be600dd27218")
-		(property "Reference" "UART1"
-			(at 157.988 147.828 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 158.115 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
-			(at 157.48 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 157.48 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 157.48 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Number" "C541858"
-			(at 157.48 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "2d9f20f2-73ce-4248-ade9-f19fafccb0b2")
-		)
-		(pin "1"
-			(uuid "8e5da384-7cc1-47d6-998f-3dbe128979c2")
-		)
-		(pin "3"
-			(uuid "843ed337-1113-4560-be00-cade1992f272")
-		)
-		(pin "2"
-			(uuid "3efa841d-4b55-4a78-b24c-87a28adf5273")
-		)
-		(instances
-			(project "DroneController"
-				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "UART1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 184.15 152.4 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd06b188-5fea-4b17-995e-4d559847ec17")
-		(property "Reference" "#PWR050"
-			(at 184.15 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 184.15 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 184.15 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "129c2829-369d-4dbc-9ec5-6289704ea492")
-		)
-		(instances
-			(project "DroneController"
-				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -26891,6 +25634,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -26926,6 +25670,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -26934,6 +25679,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -26942,6 +25688,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -26950,6 +25697,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -26958,6 +25706,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -26966,6 +25715,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C1525"
@@ -26974,6 +25724,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -27115,6 +25866,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -27150,6 +25902,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -27158,6 +25911,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -27166,6 +25920,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -27174,6 +25929,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -27182,6 +25938,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -27190,6 +25947,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C1525"
@@ -27198,6 +25956,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -27210,6 +25969,82 @@
 			(project "DroneController"
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c997b559-33b5-4f09-a726-d9c527f8e058")
+		(property "Reference" "TP3"
+			(at 195.834 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 196.088 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 190.5 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dac21a65-0188-4609-91f3-db4e7d0cefae")
+		)
+		(instances
+			(project "ModelRocketAvionics"
+				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -27468,6 +26303,7 @@
 				(font
 					(size 0.8 0.8)
 				)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±20%"
@@ -27503,6 +26339,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -27511,6 +26348,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -27519,6 +26357,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -27527,6 +26366,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -27535,6 +26375,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -27543,6 +26384,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C23733"
@@ -27551,6 +26393,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -27659,7 +26502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 48.26 103.632 90)
 			(effects
 				(font
@@ -27818,6 +26661,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -27826,6 +26670,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -27834,6 +26679,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -27842,6 +26688,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -27850,6 +26697,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -27858,6 +26706,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C25905"
@@ -27866,6 +26715,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -27894,7 +26744,7 @@
 		(dnp no)
 		(uuid "d012924d-2b9c-4002-995e-c2be9874f5f1")
 		(property "Reference" "C1"
-			(at 265.43 115.57 90)
+			(at 266.192 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27902,7 +26752,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 265.43 118.11 90)
+			(at 265.938 120.65 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -28005,6 +26855,7 @@
 				(font
 					(size 0.8 0.8)
 				)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -28040,6 +26891,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C1525"
@@ -28048,6 +26900,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -28060,6 +26913,82 @@
 			(project ""
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 190.5022 89.4101 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d17e7555-7d40-4819-bc2b-8f04d06ab0a4")
+		(property "Reference" "TP4"
+			(at 192.7882 91.9501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 192.5342 94.2361 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.4222 89.4101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.4222 89.4101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 190.5022 89.4101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" ""
+			(at 190.5022 89.4101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f66fde2e-7e5b-45c6-86c5-73c007486b1e")
+		)
+		(instances
+			(project "ModelRocketAvionics"
+				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -28192,6 +27121,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -28331,6 +27261,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±20%"
@@ -28366,6 +27297,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -28374,6 +27306,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -28382,6 +27315,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -28390,6 +27324,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -28398,6 +27333,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -28406,6 +27342,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C23733"
@@ -28414,6 +27351,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -28432,89 +27370,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 120.65 153.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3c94127-bac5-40ea-a697-166f46fb38f4")
-		(property "Reference" "MOSI2"
-			(at 128.27 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 123.952 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
-			(at 120.65 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 120.65 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 120.65 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Number" "C238131"
-			(at 120.65 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c7f28cb-60eb-47e9-a057-93990c572649")
-		)
-		(instances
-			(project "DroneController"
-				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "MOSI2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 184.1868 96.9782 0)
+		(at 190.5 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28522,7 +27379,7 @@
 		(dnp no)
 		(uuid "d5bca945-337d-4c94-a26d-af1e322ca53e")
 		(property "Reference" "#PWR058"
-			(at 184.1868 103.3282 0)
+			(at 190.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28531,7 +27388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.4408 101.5502 0)
+			(at 190.754 103.632 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28539,7 +27396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.1868 96.9782 0)
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28548,7 +27405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.1868 96.9782 0)
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28557,7 +27414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.1868 96.9782 0)
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28729,6 +27586,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±20%"
@@ -28897,6 +27755,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -28932,6 +27791,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -28940,6 +27800,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -28948,6 +27809,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -28956,6 +27818,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -28964,6 +27827,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -28972,6 +27836,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C1525"
@@ -28980,6 +27845,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -28998,73 +27864,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 40.64 40.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc9d0585-beb1-4647-a235-2e4e4bc550be")
-		(property "Reference" "#PWR068"
-			(at 40.64 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 40.64 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 40.64 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7acc4657-b7ae-42b2-8e59-c2d2b910d9cd")
-		)
-		(instances
-			(project "DroneController"
-				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "#PWR068")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 138.43 154.94 0)
+		(at 190.5 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29072,7 +27873,7 @@
 		(dnp no)
 		(uuid "dd65ab25-e4db-46fc-9c05-3096f0fc8994")
 		(property "Reference" "SWD1"
-			(at 138.938 147.828 0)
+			(at 191.008 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29080,7 +27881,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 139.065 149.86 0)
+			(at 191.135 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29089,7 +27890,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical"
-			(at 138.43 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29098,7 +27899,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29107,7 +27908,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 138.43 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29116,19 +27917,21 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 138.43 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C541858"
-			(at 138.43 154.94 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -29277,6 +28080,7 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Tolerance" "±10%"
@@ -29312,6 +28116,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Frequency - Self Resonant" ""
@@ -29320,6 +28125,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Inductance" ""
@@ -29328,6 +28134,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Q @ Freq" ""
@@ -29336,6 +28143,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Rated Current" ""
@@ -29344,6 +28152,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Digikey Part Number" ""
@@ -29352,6 +28161,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C52923"
@@ -29360,6 +28170,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -29372,87 +28183,6 @@
 			(project "DroneController"
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 120.65 151.13 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e201ccc4-2f9c-4a27-ac99-2b59a3351f50")
-		(property "Reference" "MISO2"
-			(at 128.016 150.876 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 123.952 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
-			(at 120.65 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey Part Number" ""
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part Number" "C238131"
-			(at 120.65 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f5763531-893a-4e9b-a384-1774b24c8ae3")
-		)
-		(instances
-			(project "DroneController"
-				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "MISO2")
 					(unit 1)
 				)
 			)
@@ -29662,6 +28392,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C20917"
@@ -29670,6 +28401,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -29685,6 +28417,73 @@
 			(project "DroneController"
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 215.9 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3728414-214c-491d-a268-f94a532cfa64")
+		(property "Reference" "#PWR049"
+			(at 219.71 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.09 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 215.9 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7edbabe9-9e3e-4327-b449-a47020403710")
+		)
+		(instances
+			(project "ModelRocketAvionics"
+				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -29718,7 +28517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 71.882 161.29 90)
 			(effects
 				(font
@@ -29877,6 +28676,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C4275"
@@ -29885,6 +28685,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -29927,7 +28728,6 @@
 					(size 0.8 0.8)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
@@ -30107,6 +28907,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C20917"
@@ -30115,6 +28916,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -30202,32 +29004,34 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 97.79 151.13 270)
+		(at 16.5078 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e861aa64-43fe-4afd-9705-5c2cb02720e7")
-		(property "Reference" "MISO1"
-			(at 105.156 150.876 90)
+		(uuid "eb2dc863-4b22-44e8-9d82-44930f396b2e")
+		(property "Reference" "TP6"
+			(at 17.272 169.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 101.092 153.67 90)
+			(at 14.4758 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Miniature"
-			(at 97.79 156.21 0)
+		(property "Footprint" ""
+			(at 21.5878 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30236,7 +29040,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 156.21 0)
+			(at 21.5878 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30245,7 +29049,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 97.79 151.13 0)
+			(at 16.5078 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30254,28 +29058,21 @@
 			)
 		)
 		(property "Digikey Part Number" ""
-			(at 97.79 151.13 0)
+			(at 16.5078 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "LCSC Part Number" "C238131"
-			(at 97.79 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "37a86cab-4e0c-49c7-9cab-1f9925dfcab3")
+			(uuid "5d82b6fb-0b29-4ad2-81cc-199544fbea1e")
 		)
 		(instances
-			(project "DroneController"
+			(project "ModelRocketAvionics"
 				(path "/89a72cea-fd24-4c2f-bde8-6b43291d77f4"
-					(reference "MISO1")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -30305,7 +29102,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -30509,7 +29305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 251.968 127 90)
 			(effects
 				(font
@@ -30668,6 +29464,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC Part Number" "C25905"
@@ -30676,6 +29473,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

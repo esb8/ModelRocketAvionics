@@ -1,4 +1,4 @@
-24952746766121144
+24935459447789636
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,13 @@ audio belton reverb
 0
 7
 7
+AvionicsFootprints
+MC-311D
+
+
+0
+16
+16
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -58435,13 +58442,6 @@ heatsink
 0
 0
 0
-HelloKittyBoard
-HELLO-KITTY-OUTLINE
-
-
-0
-6
-6
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -65862,8 +65862,8 @@ Yellow 5381 Series LED
 0
 2
 2
-MC311D
-USB-C-SMD_MC-311D
+Lora1276
+COMM-SMD_LORA1276-C1-915MHZ
 
 
 0
@@ -69867,34 +69867,6 @@ capacitor
 2
 2
 PCM_JLCPCB
-C_0805
-Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-PCM_JLCPCB
-C_1206
-Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-capacitor
-0
-2
-2
-PCM_JLCPCB
-C_CASE-A-3216-18(mm)
-Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
-capacitor tantalum
-0
-2
-2
-PCM_JLCPCB
-C_CASE-B-3528-21(mm)
-Tantalum Capacitor SMD Kemet-B (3528-21 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
-capacitor tantalum
-0
-2
-2
-PCM_JLCPCB
 DBS_L8.2-W6.4-P5.10-LS10.0-BL
 DBS_L8.2-W6.4-P5.10-LS10.0-BL footprint
 DBS_L8.2-W6.4-P5.10-LS10.0-BL footprint C5377
@@ -69929,13 +69901,6 @@ DFN2510-10_L2.5-W1.0-P0.50-BL footprint C7420374
 0
 10
 10
-PCM_JLCPCB
-D_0603
-LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED
-0
-2
-2
 PCM_JLCPCB
 D_0805
 LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
@@ -70007,13 +69972,6 @@ Diode SMC (DO-214AB)
 2
 2
 PCM_JLCPCB
-D_SMC(DO-214AB)
-SMC_L7.1-W6.2-LS8.1-R-RD footprint
-SMC_L7.1-W6.2-LS8.1-R-RD footprint C35722
-0
-2
-2
-PCM_JLCPCB
 D_SOD-123
 SOD-123
 SOD-123
@@ -70069,20 +70027,6 @@ Wi-Fi Module
 0
 22
 22
-PCM_JLCPCB
-FB_0603
-Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-inductor
-0
-2
-2
-PCM_JLCPCB
-FB_0805
-Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-inductor
-0
-2
-2
 PCM_JLCPCB
 FC-135R_L3.2-W1.5
 FC-135R_L3.2-W1.5 footprint
@@ -70149,27 +70093,6 @@ LQFP QFP
 PCM_JLCPCB
 L_0402
 Inductor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-inductor
-0
-2
-2
-PCM_JLCPCB
-L_0603
-Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-inductor
-0
-2
-2
-PCM_JLCPCB
-L_0805
-Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-inductor
-0
-2
-2
-PCM_JLCPCB
-L_1206
-Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 inductor
 0
 2
@@ -70293,48 +70216,6 @@ SOT-323-3_L2.0-W1.3-P1.30-LS2.1-BR footprint C7420322
 0
 3
 3
-PCM_JLCPCB
-R_0402
-Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor
-0
-2
-2
-PCM_JLCPCB
-R_0402x4
-Thick Film Chip Resistor Array, Wave soldering, Vishay CRA04P (see cra04p.pdf)
-resistor array
-0
-8
-8
-PCM_JLCPCB
-R_0603
-Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor
-0
-2
-2
-PCM_JLCPCB
-R_0603x4
-Thick Film Chip Resistor Array, Wave soldering, Vishay CRA06P (see cra06p.pdf)
-resistor array
-0
-8
-8
-PCM_JLCPCB
-R_0805
-Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor
-0
-2
-2
-PCM_JLCPCB
-R_1206
-Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor
-0
-2
-2
 PCM_JLCPCB
 SOIC-8_3.9x4.9mm_P1.27mm
 SOP, 8 Pin (http://www.macronix.com/Lists/Datasheet/Attachments/7534/MX25R3235F,%20Wide%20Range,%2032Mb,%20v1.6.pdf#page=79), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -92056,6 +91937,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SW-SHOUHAN_MST-22D18G23J_C2875122
+SW-SMD_SHOUHAN_MST-22D18G23J_C2875122
+
+
+0
+3
+3
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -100373,9 +100261,51 @@ Varistor VF
 2
 2
 easyeda2kicad
-SW-SMD_SHOUHAN_MST-22D18G23J_C2875122
+CONN-TH_B2B-XH-A-LF-SN
 
 
 0
-3
-3
+2
+2
+easyeda2kicad
+KEYSTONE_5019
+
+
+0
+1
+1
+easyeda2kicad
+LGA-14_L3.0-W2.5-P0.50-TL
+
+
+0
+14
+14
+easyeda2kicad
+LQFN-56_L7.0-W7.0-P0.4-EP
+
+
+0
+57
+57
+easyeda2kicad
+SMD_RH-5015
+
+
+0
+1
+1
+easyeda2kicad
+SW-SMD_4P-L4.5-W4.5-P3.15-LS7.5-TL
+
+
+0
+4
+4
+easyeda2kicad
+TEST-TH_BD2.54-P1.4_BLACK
+
+
+0
+1
+1
