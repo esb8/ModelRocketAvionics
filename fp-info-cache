@@ -1,4 +1,4 @@
-24968486253748408
+24952746766121144
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65862,13 +65862,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Lora1276
-COMM-SMD_LORA1276-C1-915MHZ
-
-
-0
-16
-16
 MC311D
 USB-C-SMD_MC-311D
 
@@ -65876,27 +65869,6 @@ USB-C-SMD_MC-311D
 0
 16
 16
-MPU-6500
-QFN24_3X3X0P9_IVS
-
-MPU-6500 
-0
-25
-25
-MPU-6500
-QFN24_3X3X0P9_IVS-L
-
-MPU-6500 
-0
-25
-25
-MPU-6500
-QFN24_3X3X0P9_IVS-M
-
-MPU-6500 
-0
-25
-25
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -92084,13 +92056,6 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-SW-SHOUHAN_MST-22D18G23J_C2875122
-SW-SMD_SHOUHAN_MST-22D18G23J_C2875122
-
-
-0
-3
-3
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -92749,13 +92714,6 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
-Switches
-SW-SMD_MSK12CO2
-
-
-0
-7
-5
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -93771,13 +93729,6 @@ Logo WEEE
 0
 0
 0
-TPS62152RGTR
-QFN50P300X300X100-17N
-
-
-0
-22
-22
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -99637,13 +99588,6 @@ igbt diode module
 0
 25
 25
-USB-C
-USB-C
-USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf
-USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120
-0
-18
-16
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -100428,13 +100372,6 @@ Varistor VF
 0
 2
 2
-easyeda2kicad
-LGA-14_L3.0-W2.5-P0.50-TL
-
-
-0
-14
-14
 easyeda2kicad
 SW-SMD_SHOUHAN_MST-22D18G23J_C2875122
 
