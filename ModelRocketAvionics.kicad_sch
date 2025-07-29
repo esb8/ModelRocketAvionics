@@ -11436,6 +11436,10 @@
 		(uuid "1b5147f3-9117-4d33-8045-6736b7aecc96")
 	)
 	(no_connect
+		(at 264.1968 94.4382)
+		(uuid "2c03e985-9a6b-4ba7-971c-013aaa5ab3e8")
+	)
+	(no_connect
 		(at 138.43 120.65)
 		(uuid "52d775a1-3a1d-4391-9957-f4a5c38e0acb")
 	)
@@ -11470,6 +11474,10 @@
 	(no_connect
 		(at 218.4768 53.7982)
 		(uuid "bdff49af-1c1c-4300-ab6f-9c7cf26d7832")
+	)
+	(no_connect
+		(at 264.1968 89.3582)
+		(uuid "c25c6364-2415-4edd-8011-00f5bf3faaa8")
 	)
 	(no_connect
 		(at 148.59 43.18)
@@ -11905,16 +11913,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.1968 94.4382) (xy 270.5468 94.4382)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f7e50b7-0665-49e8-ae2c-d9aa4c1a6e5f")
-	)
-	(wire
-		(pts
 			(xy 111.76 115.57) (xy 113.03 115.57)
 		)
 		(stroke
@@ -12315,16 +12313,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.5468 96.9782) (xy 270.5468 94.4382)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81b11365-ccb1-4c2b-9d9e-8f11deb68244")
-	)
-	(wire
-		(pts
 			(xy 185.4568 84.2782) (xy 193.0768 84.2782)
 		)
 		(stroke
@@ -12612,6 +12600,16 @@
 			(type default)
 		)
 		(uuid "a7321ec5-cd37-483b-8a15-d0b7ecc0695d")
+	)
+	(wire
+		(pts
+			(xy 270.5468 91.8982) (xy 270.5468 96.9782)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa92a227-db27-4fea-b253-1256903deb0d")
 	)
 	(polyline
 		(pts
@@ -12942,6 +12940,16 @@
 			(type default)
 		)
 		(uuid "d88f9aff-8cd2-4367-bcae-8276bf816dbf")
+	)
+	(wire
+		(pts
+			(xy 270.5468 91.8982) (xy 264.1968 91.8982)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e8d6d6-3888-4071-9d5b-d85d090cde04")
 	)
 	(wire
 		(pts
@@ -13363,16 +13371,6 @@
 		)
 		(uuid "530aef0f-f8a2-4be4-b012-e1d456ea707a")
 	)
-	(label "MCU_RX2"
-		(at 264.1968 89.3582 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5418ac35-2eb1-4e9f-9170-98c41d85cd5f")
-	)
 	(label "SPI1_SCK"
 		(at 110.49 123.19 180)
 		(effects
@@ -13512,16 +13510,6 @@
 			(justify left bottom)
 		)
 		(uuid "87bd461f-288f-4b54-bcd5-d2e8a041a7c9")
-	)
-	(label "MCU_TX2"
-		(at 264.1968 91.8982 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97b5c94c-4736-4bfb-a7c6-1227b471d93c")
 	)
 	(label "SPI1_MISO"
 		(at 110.49 118.11 180)
