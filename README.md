@@ -132,7 +132,8 @@ This project delivers a robust and flexible **flight computer** for **high-power
 
 ## Collaboration
 
-This system is being developed and customized by **Evan Bhogal** in collaboration with **Ammar Mahmood** and **esb8**, now re-adapted under the **Mars Society at TMU (MARSTMU)** for use in high-power rocketry and avionics research.
+
+This system is being developed by **Evan Bhogal** and **Javezki** for the **Metropolitan Aerospace Rocketry Society at TMU** for use in high-power rocketry and avionics research.
 
 ---
 
