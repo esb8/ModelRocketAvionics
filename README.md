@@ -1,6 +1,6 @@
 # Model Rocketry Flight Computer and Embedded Patch Antenna – Full PCB + Assembly
 
-An open-source avionics system developed for **model rocketry** applications by the [Metropolitain Aerospace Rocket Society at Toronto Metropolitan University (MARSTMU)](https://marstmu.com/). Originally designed for FPV drones, this project has been adapted into a **flight computer** supporting GPS, sensor fusion, data logging, and telemetry, all within a compact, custom PCB. This board also features a **custom microstrip antenna** designed by [Javezki](https://github.com/Javezki). All schematics and KiCad 9.0 PCB design files are openly available.
+An open-source avionics system developed for **model rocketry** applications by the [Metropolitain Aerospace Rocket Society at Toronto Metropolitan University](https://marstmu.com/). Originally designed for FPV drones, this project has been adapted into a **flight computer** supporting GPS, sensor fusion, data logging, and telemetry, all within a compact, custom PCB. This board also features a **custom microstrip antenna** designed by [Javezki](https://github.com/Javezki). All schematics and KiCad 9.0 PCB design files are openly available.
 
 ---
 
@@ -130,7 +130,7 @@ This project delivers a robust and flexible **flight computer** for **high-power
 
 ## Collaboration
 
-This system is being developed and customized by **Evan Bhogal** in collaboration with **Ammar Mahmood** and **esb8**, now re-adapted under the **Mars Society at TMU (MARSTMU)** for use in high-power rocketry and avionics research.
+This system is being developed by **Evan Bhogal** and **Javezki** for the **Metropolitan Aerospace Rocketry Society at TMU** for use in high-power rocketry and avionics research.
 
 ---
 
