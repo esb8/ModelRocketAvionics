@@ -124,31 +124,9 @@ This project delivers a robust and flexible **flight computer** for **high-power
 
 ## Media
 
-### MKII Flight Computer – 3D Model
+### Flight Computer – 3D Model
 
-![MKII 3D Model](https://github.com/user-attachments/assets/4a1bf0b9-8b31-4664-99bb-4b8587f5d55a)
-
-### MKII Flight Computer – PCB Layout
-
-![MKII PCB](https://github.com/user-attachments/assets/8e14f005-45c7-44f8-8ec0-955a119deb0c)
-
-### MKI Prototypes
-
-**MKI Schematic**
-
-![MKI Schematic](https://github.com/user-attachments/assets/a0e9ac33-9647-4282-bd55-7698e77d00b0)
-
-**MKI 3D Model**
-
-![MKI 3D](https://github.com/user-attachments/assets/9c4938de-f330-492c-8345-230773f7fb7f)
-
-**MKI PCB**
-
-![MKI PCB](https://github.com/user-attachments/assets/25b10c26-9e5e-4a46-b159-e48ac772de75)
-
-**MKI Schematic (Alt View)**
-
-![MKI Alt](https://github.com/user-attachments/assets/66eaace1-5f99-4fdb-9aa4-7867878309cd)
+<img width="1149" height="898" alt="image" src="https://github.com/user-attachments/assets/67c6b6bd-6ebe-4df5-8a24-93755f462e03" />
 
 ---
 
