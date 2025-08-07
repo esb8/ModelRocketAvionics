@@ -1,6 +1,6 @@
 # Model Rocketry Flight Computer and Embedded Patch Antenna – Full PCB + Assembly
 
-An open-source avionics system developed for **model rocketry** applications by the [Metropolitain Aerospace Rocket Society at Toronto Metropolitan University (MARSTMU)](https://marstmu.com/). Originally designed for FPV drones, this project has been adapted into a **flight computer** supporting GPS, sensor fusion, data logging, and telemetry, all within a compact, custom PCB. This board also features a **custom microstrip antenna** designed by [Javezki](https://github.com/Javezki). All schematics and KiCad 9.0 PCB design files are openly available.
+An open-source avionics system developed for **model rocketry** applications by the [Metropolitain Aerospace Rocket Society at Toronto Metropolitan University](https://marstmu.com/). Originally designed for FPV drones, this project has been adapted into a **flight computer** supporting GPS, sensor fusion, data logging, and telemetry, all within a compact, custom PCB. This board also features a **custom microstrip antenna** designed by [Javezki](https://github.com/Javezki). All schematics and KiCad 9.0 PCB design files are openly available.
 
 ---
 
@@ -13,7 +13,7 @@ This project delivers a robust and flexible **flight computer** for **high-power
 ## Hardware Overview
 
 ### **Integrated Flight Computer Design**
-- **Flight Computer**: STM32F411CEU6 (ARM Cortex M4)
+- **Flight Computer**: RP2040 
 - **Power Regulation**: High-efficiency DC-DC converters (1S LiPo)
 - **Telemetry**: Long-range LoRa communication
 - **Sensor Suite**: Altitude, attitude, temperature, and pressure sensing
@@ -30,7 +30,7 @@ This project delivers a robust and flexible **flight computer** for **high-power
 
 ## Flight Computer Board Features
 
-- **MCU**: STM32F411CEU6 (100MHz ARM Cortex-M4)
+- **MCU**: RP2040 (100MHz ARM Cortex-M4)
 - **Clock Source**: 12MHz external crystal
 - **IMU**: ICM-42605 (gyro + accel)
 - **Barometer**: BMP280 for altitude tracking
@@ -124,37 +124,13 @@ This project delivers a robust and flexible **flight computer** for **high-power
 
 ## Media
 
-### MKII Flight Computer – 3D Model
+### Flight Computer – 3D Model
+<img width="1149" height="898" alt="image" src="https://github.com/user-attachments/assets/66f861f1-65cf-4538-8d31-ce32bdf7bfee" />
 
-![MKII 3D Model](https://github.com/user-attachments/assets/4a1bf0b9-8b31-4664-99bb-4b8587f5d55a)
-
-### MKII Flight Computer – PCB Layout
-
-![MKII PCB](https://github.com/user-attachments/assets/8e14f005-45c7-44f8-8ec0-955a119deb0c)
-
-### MKI Prototypes
-
-**MKI Schematic**
-
-![MKI Schematic](https://github.com/user-attachments/assets/a0e9ac33-9647-4282-bd55-7698e77d00b0)
-
-**MKI 3D Model**
-
-![MKI 3D](https://github.com/user-attachments/assets/9c4938de-f330-492c-8345-230773f7fb7f)
-
-**MKI PCB**
-
-![MKI PCB](https://github.com/user-attachments/assets/25b10c26-9e5e-4a46-b159-e48ac772de75)
-
-**MKI Schematic (Alt View)**
-
-![MKI Alt](https://github.com/user-attachments/assets/66eaace1-5f99-4fdb-9aa4-7867878309cd)
-
----
 
 ## Collaboration
 
-This system is being developed and customized by **Evan Bhogal** in collaboration with **Ammar Mahmood** and **esb8**, now re-adapted under the **Mars Society at TMU (MARSTMU)** for use in high-power rocketry and avionics research.
+This system is being developed by **Evan Bhogal** and **Javezki** for the **Metropolitan Aerospace Rocketry Society at TMU** for use in high-power rocketry and avionics research.
 
 ---
 
