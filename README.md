@@ -126,6 +126,11 @@ This project delivers a robust and flexible **flight computer** for **high-power
 
 ### Flight Computer – 3D Model
 <img width="1149" height="898" alt="image" src="https://github.com/user-attachments/assets/66f861f1-65cf-4538-8d31-ce32bdf7bfee" />
+### Flight Computer – PCB
+<img width="944" height="861" alt="image" src="https://github.com/user-attachments/assets/01248251-287b-48c3-a987-6b67ade03027" />
+### Flight Computer – Schematic
+<img width="1121" height="773" alt="image" src="https://github.com/user-attachments/assets/b3b5c5f8-f60b-4e81-ad91-97a7138758ad" />
+
 
 
 ## Collaboration
