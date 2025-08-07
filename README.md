@@ -135,7 +135,7 @@ This project delivers a robust and flexible **flight computer** for **high-power
 
 ## Collaboration
 
-This system is being developed by **Evan Bhogal** and **Javezki** for the **Metropolitan Aerospace Rocketry Society at TMU** for use in high-power rocketry and avionics research.
+This system is being developed by **Evan Bhogal** and **Javezki** for the **Metropolitan Aerospace Rocket Society at TMU** for use in high-power rocketry and avionics research.
 
 ---
 
@@ -147,7 +147,7 @@ Released under the **MIT License**. All PCB files, schematics, and firmware modi
 
 ## Resources
 
-- [MARSTMU](https://marstmu.com)
+- [Metropolitan Aerospace Rocket Society](https://marstmu.com)
 - [Javezki Github](https://github.com/Javezki)
 - [ESB8 GitHub](https://github.com/esb8)
   
